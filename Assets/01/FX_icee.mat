@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_icee
+  m_Shader: {fileID: 4800000, guid: 3b038de2247ba1b4bb515deeebf38fbd, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Eff_Noise_TT02:
+        m_Texture: {fileID: 2800000, guid: 3e69cca5f3ec05f4dbbb89f7467abbf9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Frednel_mask:
+        m_Texture: {fileID: 2800000, guid: 7961951f20243e8468eca79edce4cd7d, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _Main_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matecap:
+        m_Texture: {fileID: 2800000, guid: 08e4b381571683447b168d6d5bc3f4f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: a00e47ef9254b15468f61254e8229e8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Vertex_tex:
+        m_Texture: {fileID: 2800000, guid: 7961951f20243e8468eca79edce4cd7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Desatruate: 0
+    - _Emission_scale: 1
+    - _Float2: 7.22
+    - _Float3: 29.53
+    - _Fresnel_power: 0
+    - _Main_scale: 0.5
+    - _Main_speed_U: 0
+    - _Main_speed_V: 0
+    - _Mask_Rotator: 0
+    - _Nosrmal_S: 0
+    - _Speed_U: 0
+    - _Speed_V: 0.2
+    - _Top_linght_power: 5
+    - _Top_linght_scale: 0.1
+    - _Vertex_Speed_U: 0.3
+    - _Vertex_Speed_V: 0
+    - _Vertex_scale: 1.03
+    - __dirty: 0
+    m_Colors:
+    - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
+    - _Main_color: {r: 1.3951875, g: 1.3951875, b: 1.3951875, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Mat_cap_control: {r: 0, g: 0.2, b: 1, a: 0.42}
+    - _Mat_cap_control1: {r: 3, g: 2, b: 1, a: 0.88}
+    - _Top_light_color: {r: 0.9386792, g: 0.952486, b: 1, a: 1}
+    - _Vector1: {r: 0, g: 0, b: 0, a: 0}
