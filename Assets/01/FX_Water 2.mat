@@ -107,5 +107,5 @@ Material:
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 2, g: 2, b: 1.1, a: 0.9}
-    - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
+    - _Mat_cap_control1: {r: 8, g: 3.5, b: 1, a: 0.85}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
