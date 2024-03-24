@@ -101,7 +101,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Vertex_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0e616e9c69b8b68489dbf83194b0a869, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _tex4coord2:
@@ -137,7 +137,7 @@ Material:
     - _AntiDepthFade: 0
     - _BumpScale: 1
     - _CullMode: 0
-    - _Cull_Mode: 0
+    - _Cull_Mode: 2
     - _Custom: 1
     - _Custom_UV: 1
     - _Cutoff: 0.5
@@ -230,7 +230,7 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_gradent: 0
     - _Noise_scale: 0
-    - _Noise_speed_U: 0
+    - _Noise_speed_U: 0.2
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
     - _Nosie_dissolve: 0
@@ -259,8 +259,8 @@ Material:
     - _Use_fresnel_opacity: 0
     - _Use_main_power: 0
     - _Vertex_Rotator: 0
-    - _Vertex_scale: 0
-    - _Vertex_speed_U: 0
+    - _Vertex_scale: 0.2
+    - _Vertex_speed_U: -0.2
     - _Vertex_speed_V: 0
     - _Vertex_tex_radial: 0
     - _ZWrite: 1
@@ -285,4 +285,4 @@ Material:
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _MianTilingOffset: {r: -1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Vertex_Tex: {r: 2, g: 2, b: 0, a: 0}
