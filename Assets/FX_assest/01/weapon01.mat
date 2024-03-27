@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: weapon
+  m_Name: weapon01
   m_Shader: {fileID: 4800000, guid: fce660563f57cc14fbbcb65d37a0aac6, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -98,7 +98,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Emission_scale: 0.5
+    - _Emission_scale: 1
     - _Emission_speed_U: 0
     - _Emission_speed_V: 0
     - _Fresnel_Switch: 0
@@ -130,7 +130,7 @@ Material:
     - _Color1: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0}
     - _Color_tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Emission_color: {r: 5.272391, g: 0.65860397, b: 0.32330713, a: 1}
+    - _Emission_color: {r: 7.535886, g: 0.18527214, b: 0, a: 1}
     - _Fresnel_color: {r: 1, g: 1, b: 1, a: 0}
     - _OutLineColor: {r: 0, g: 0, b: 0, a: 0}
     - _Screen_emissive_color: {r: 0, g: 0, b: 0, a: 0}

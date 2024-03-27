@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 6d35264b7927fcd44bfea5e94c7129ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: 843989ad21639dc409bfaa13feadebda, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -162,7 +162,7 @@ Material:
     - _UVSec: 0
     - _Use_Depth_fade: 0
     - _Use_base_color: 1
-    - _Use_dissolve_gradent: 1
+    - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
@@ -183,6 +183,6 @@ Material:
     - _Main_Tex: {r: 1.5, g: 1, b: 0, a: 0}
     - _Main_color: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Mask_Tex: {r: 1.5, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 2, g: 2, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}

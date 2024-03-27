@@ -138,7 +138,7 @@ Material:
     - _BumpScale: 1
     - _CullMode: 0
     - _Cull_Mode: 0
-    - _Custom: 0
+    - _Custom: 1
     - _Custom_UV: 1
     - _Cutoff: 0.5
     - _Depth: 2
@@ -157,7 +157,7 @@ Material:
     - _Dissolve_V: 0
     - _Dissolve_edge: 0
     - _Dissolve_gradent_Rotator: 0
-    - _Dissolve_soft: 0.372
+    - _Dissolve_soft: 0
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
@@ -229,11 +229,11 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_dissolve: 0
     - _Noise_gradent: 0
-    - _Noise_scale: 0.05
+    - _Noise_scale: 0.1
     - _Noise_speed_U: 0.2
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
-    - _Nosie_dissolve: 0
+    - _Nosie_dissolve: 1
     - _OcclusionStrength: 1
     - _Opacity: 1
     - _OpacityPower: 1
@@ -266,7 +266,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveLineColor1: {r: 0, g: 0, b: 0, a: 1}
     - _DissolveTilingOffset: {r: 1, g: 1, b: 0, a: 0}
-    - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 2, g: 2, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
