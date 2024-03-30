@@ -127,7 +127,7 @@ Material:
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 5.3403134, g: 1.7029872, b: 0.8816554, a: 1}
+    - _Main_color: {r: 5.3403144, g: 5.3403144, b: 5.3403144, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 2, g: 1, b: 0, a: 0}

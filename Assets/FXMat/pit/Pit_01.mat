@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: f08631f65e063c64bb6018bd1541fc32, type: 3}
+        m_Texture: {fileID: 2800000, guid: bb00f825cc28478428c6c7e5679874ac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -156,7 +156,7 @@ Material:
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 1
+    - _Opacity_scale: 3
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
