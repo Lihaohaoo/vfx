@@ -228,7 +228,7 @@ Material:
     - _NoiseTex_V1: 0
     - _Noise_Rotator: 0
     - _Noise_gradent: 0
-    - _Noise_scale: 0.2
+    - _Noise_scale: 0
     - _Noise_speed_U: -0.5
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
