@@ -190,7 +190,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _Use_Depth_fade: 0
-    - _Use_base_color: 0
+    - _Use_base_color: 1
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
@@ -217,7 +217,7 @@ Material:
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 11.984314, g: 11.984314, b: 11.984314, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_control: {r: 0.35, g: 2, b: 1, a: 0.5}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 2, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
