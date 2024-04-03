@@ -113,7 +113,7 @@ Material:
     - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
     - _Dissolve_gradent_Rotator: 0
-    - _Dissolve_soft: 0.835
+    - _Dissolve_soft: 0.55
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
@@ -156,7 +156,7 @@ Material:
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 3
+    - _Opacity_scale: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
