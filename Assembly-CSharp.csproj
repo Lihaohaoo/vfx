@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FX_assest\Y\FX_guadian.cs" />
     <Compile Include="Assets\shader\Shader\PlanarReflection.cs" />
     <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\PandaDrawer.cs" />
     <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\PandaPostGUI_V1.0.cs" />

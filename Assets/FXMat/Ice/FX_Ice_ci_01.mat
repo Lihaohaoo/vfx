@@ -99,7 +99,7 @@ Material:
     - _Use_dissolve_gradent: 0
     - _Zwrite_modo: 1
     - __dirty: 0
-    - _custom: 0
+    - _custom: 1
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_color: {r: 1, g: 1, b: 1, a: 1}
