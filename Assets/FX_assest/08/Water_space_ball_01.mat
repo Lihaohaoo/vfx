@@ -60,9 +60,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 0b233ed81dd84f34a96f844941b96888, type: 3}
-        m_Scale: {x: 1, y: 0.5}
-        m_Offset: {x: 0, y: 0.49}
+        m_Texture: {fileID: 2800000, guid: b56b08c9fd3d51a489aaa61d0ebec85f, type: 3}
+        m_Scale: {x: 1, y: 0.2}
+        m_Offset: {x: 0, y: 0.77}
     - _Mask_tex:
         m_Texture: {fileID: 2800000, guid: feb67c9bbcf54e342813a6c974d64a1d, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -212,7 +212,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_Tex: {r: 3, g: 1, b: 0, a: 0}
-    - _Dissolve_color: {r: 0.2445282, g: 0.19157171, b: 0.990566, a: 0}
+    - _Dissolve_color: {r: 0.99215686, g: 0.40365914, b: 0.19215685, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}

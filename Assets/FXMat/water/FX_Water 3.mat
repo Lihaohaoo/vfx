@@ -27,6 +27,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Frednel_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Main_:
         m_Texture: {fileID: 0}
         m_Scale: {x: 0.5, y: 1}
@@ -36,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matecap:
-        m_Texture: {fileID: 2800000, guid: dd5d009f43f5f624ebd820c33770406c, type: 3}
+        m_Texture: {fileID: 2800000, guid: b95b00480cbe25642a84478d276883ed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -45,6 +49,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve:
         m_Texture: {fileID: 2800000, guid: 3ad25094cdef2af46a2ae7fa95568f63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Dissolve_gradent:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _tex4coord2:
@@ -60,8 +68,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Desatruate: 0
+    - _Cull_modo: 0
+    - _Desatruate: 0.484
     - _Dissolve: 0
+    - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
     - _Dissolve_fanxiang: 1
     - _Dissolve_soft: 1
@@ -70,20 +80,33 @@ Material:
     - _Dissolve_speed_V: 0
     - _Emission_scale: 1.1
     - _FixedPower1: 0.5
+    - _Fresnel_Speed_U: 0
+    - _Fresnel_Speed_V: 0
+    - _Fresnel_power: 1
+    - _Fresnel_scale: 0
     - _Graden_edge: 0
+    - _Light_: 1
+    - _Main_Rotator: 0
     - _Main_scale: 1
     - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Matcap_power: 1
     - _Matcap_scale: 1
-    - _Normal_scale: 0.8
+    - _Normal_scale: 1
+    - _Normal_speed_U: 0
+    - _Normal_speed_V: 0
+    - _Top_linght_power: 5
+    - _Top_linght_scale: 0
     - _Use_dissolve_gradent: 0
+    - _Zwrite_modo: 0
     - __dirty: 0
     - _custom: 1
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Fresnel_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
+    - _Mat_cap_control1: {r: 5, g: 8, b: 1.2, a: 0.85}
+    - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
