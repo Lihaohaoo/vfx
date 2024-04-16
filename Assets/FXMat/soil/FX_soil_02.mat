@@ -55,6 +55,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Tex_Vertex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _tex4coord2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -71,6 +75,7 @@ Material:
     - _Cull_modo: 2
     - _Desatruate: 0
     - _Dissolve: 0
+    - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
     - _Dissolve_fanxiang: 1
     - _Dissolve_soft: 1
@@ -95,11 +100,15 @@ Material:
     - _Normal_speed_U: 0
     - _Normal_speed_V: 0
     - _Top_linght_power: 5
-    - _Top_linght_scale: 1.3
+    - _Top_linght_scale: 1
     - _Use_dissolve_gradent: 0
+    - _Vertex_Rotator: 0
+    - _Vertex_speed_U: 0
+    - _Vertex_speed_V: 0
     - _Zwrite_modo: 1
     - __dirty: 0
     - _custom: 0
+    - _vertex_scale: 0
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_color: {r: 1, g: 1, b: 1, a: 1}
@@ -108,4 +117,5 @@ Material:
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control1: {r: 1, g: 1, b: 0.8, a: 1}
+    - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
     - _Top_light_color: {r: 0.36320752, g: 0.6153946, b: 1, a: 1}
