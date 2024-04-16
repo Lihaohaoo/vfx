@@ -148,7 +148,7 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_gradent: 0
     - _Noise_scale: 0
-    - _Noise_speed_U: 0
+    - _Noise_speed_U: 1
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
     - _Nosie_dissolve: 0
@@ -161,7 +161,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _Use_Depth_fade: 0
-    - _Use_base_color: 0
+    - _Use_base_color: 1
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
@@ -181,7 +181,7 @@ Material:
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 3.4822018, g: 3.4822018, b: 3.4822018, a: 1}
+    - _Main_color: {r: 4.649013, g: 4.649013, b: 4.649013, a: 1}
     - _Main_control: {r: 3, g: 2, b: 1, a: 0.5}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
