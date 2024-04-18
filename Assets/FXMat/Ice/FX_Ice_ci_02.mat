@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matecap:
-        m_Texture: {fileID: 2800000, guid: 127e155e80fc01941b49b2813216ef7f, type: 3}
+        m_Texture: {fileID: 2800000, guid: e5414fb2b61691e4dba5ff849b76747c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -82,7 +82,7 @@ Material:
     - _Dissolve_soft_edge: 1
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
-    - _Emission_scale: 0.85
+    - _Emission_scale: 1
     - _FixedPower1: 0.558
     - _Fresnel_Speed_U: 0
     - _Fresnel_Speed_V: 0
@@ -116,6 +116,6 @@ Material:
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mat_cap_control1: {r: 0.1, g: 1, b: 1, a: 0.5}
+    - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 0.5}
     - _Matcap_add_color: {r: 0.4669811, g: 0.6987284, b: 1, a: 1}
     - _Top_light_color: {r: 0.31199998, g: 0.4625062, b: 1, a: 1}
