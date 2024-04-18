@@ -95,6 +95,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _vertex_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AddBlend: 1
     - _BumpScale: 1
@@ -115,6 +127,7 @@ Material:
     - _Dissolve_tex_radial: 0
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
+    - _Edge_black_scale: 0
     - _FixedPower1: 0.5
     - _Fresnel_one_minus: 0
     - _Fresnelpower: 1
@@ -127,6 +140,7 @@ Material:
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
     - _Main_Split: 0
+    - _Main_screen_UV: 0
     - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
@@ -140,10 +154,12 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _Noise_Rotator: 0
+    - _Noise_gradent: 0
     - _Noise_scale: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
+    - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
     - _Opacity_scale: 1
@@ -174,6 +190,7 @@ Material:
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 8, g: 8, b: 8, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}

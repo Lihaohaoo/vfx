@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 0c206f2a804dcc5499a1d4f6ab51c09b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -113,7 +113,7 @@ Material:
     - _Dissolve_Rotator: 45
     - _Dissolve_edge: 0
     - _Dissolve_gradent_Rotator: 0
-    - _Dissolve_soft: 0.759
+    - _Dissolve_soft: 0.879
     - _Dissolve_speed_U: -1
     - _Dissolve_speed_V: -1
     - _Dissolve_tex_radial: 0
@@ -174,15 +174,15 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Dissolve_Tex: {r: 1, g: 2, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 0.5, g: 2, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tex: {r: 0.5, g: 3, b: 0, a: 0}
-    - _Main_color: {r: 8, g: 2.9490197, b: 0.59607846, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_color: {r: 10.386217, g: 2.5502694, b: 0.93083996, a: 1}
+    - _Main_control: {r: 2, g: 10, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: -0.05}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
