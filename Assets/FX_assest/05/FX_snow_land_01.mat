@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: b6e67704b0e3c564b8f358f749bede39, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matecap:
-        m_Texture: {fileID: 2800000, guid: dd5d009f43f5f624ebd820c33770406c, type: 3}
+        m_Texture: {fileID: 2800000, guid: b95b00480cbe25642a84478d276883ed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -96,6 +96,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve_gradent:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Vertex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -209,6 +213,7 @@ Material:
     - _Zwrite_modo: 0
     - __dirty: 0
     - _custom: 1
+    - _vertex_scale: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
@@ -222,6 +227,7 @@ Material:
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Mat_cap_control1: {r: 0.2, g: 1, b: 1, a: 0.5}
+    - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
