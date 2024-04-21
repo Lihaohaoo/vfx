@@ -202,6 +202,7 @@ Material:
     - _Wenli_tex_U: 0
     - _Wenli_tex_V: 0
     - _ZWrite: 1
+    - _Z_write_mode: 0
     - __dirty: 0
     - _opacity: 0
     m_Colors:

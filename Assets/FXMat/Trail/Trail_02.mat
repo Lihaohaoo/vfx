@@ -36,11 +36,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0e616e9c69b8b68489dbf83194b0a869, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: edabaac086d18aa46a5d7b1d0a908b1f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -109,18 +109,18 @@ Material:
     - _Depth_fade: 0
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
-    - _Dissolve: 0
+    - _Dissolve: -0.1
     - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
-    - _Dissolve_gradent_Rotator: 0
-    - _Dissolve_soft: 0.5
-    - _Dissolve_speed_U: 0
+    - _Dissolve_gradent_Rotator: -90
+    - _Dissolve_soft: 1
+    - _Dissolve_speed_U: -1
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
     - _Edge_black_scale: 0
-    - _FixedPower1: 0.5
+    - _FixedPower1: 0.206
     - _Fresnel_one_minus: 0
     - _Fresnelpower: 1
     - _GlossMapScale: 1
@@ -162,7 +162,7 @@ Material:
     - _UVSec: 0
     - _Use_Depth_fade: 0
     - _Use_base_color: 1
-    - _Use_dissolve_gradent: 0
+    - _Use_dissolve_gradent: 1
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
@@ -171,10 +171,11 @@ Material:
     - _Vertex_speed_V: 0
     - _Vertex_tex_radial: 0
     - _ZWrite: 1
+    - _Z_write_mode: 0
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
