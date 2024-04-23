@@ -40,9 +40,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Logo:
-        m_Texture: {fileID: 2800000, guid: 952e6cda434200247b8852b4b5d1a444, type: 3}
-        m_Scale: {x: 3, y: 3}
-        m_Offset: {x: -0.16, y: 0.26}
+        m_Texture: {fileID: 2800000, guid: 2bef716ad889c734d84f1531cfd57352, type: 3}
+        m_Scale: {x: 4.26, y: 3}
+        m_Offset: {x: 0.07, y: 0.09}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -94,7 +94,7 @@ Material:
     - _LineUVScale: 0
     - _LineUVScaleK: 0
     - _LogoAR: 0
-    - _LogoAlpha: 0
+    - _LogoAlpha: 0.147
     - _MainAlpha: 1
     - _MainAlphaK: 1
     - _Metallic: 0
