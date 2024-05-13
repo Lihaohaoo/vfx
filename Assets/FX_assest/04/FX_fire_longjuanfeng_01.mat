@@ -171,6 +171,7 @@ Material:
     - _Vertex_speed_V: -2
     - _Vertex_tex_radial: 0
     - _ZWrite: 1
+    - _Z_write_mode: 0
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
