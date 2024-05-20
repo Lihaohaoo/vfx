@@ -169,7 +169,7 @@ Material:
     - _Emission: 1
     - _FadeBokeh: 1
     - _FixedPower: 0
-    - _FixedPower1: 0.833
+    - _FixedPower1: 0.592
     - _FixedTexAR: 1
     - _FixedTexPola: 0
     - _FixedTexRotating2: 221
