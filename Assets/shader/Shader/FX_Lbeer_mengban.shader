@@ -78,6 +78,8 @@ Shader "FX/FX_Lbeer_URP"
 		[Enum(Off,0,On,1)]_Use_fresnel_opacity("Use_fresnel_opacity", Float) = 0
 		_Fresnelpower("Fresnel+power", Float) = 1
 		[HDR]_Fresnel_color("Fresnel_color", Color) = (0,0,0,0)
+		_Mengban_shuzhi("Mengban_shuzhi", Float) = 0
+		[Enum(UnityEngine.Rendering.CompareFunction)]_Mengban_("Mengban_", Float) = 0
 		[HideInInspector] _texcoord3( "", 2D ) = "white" {}
 		[HideInInspector] _texcoord2( "", 2D ) = "white" {}
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
@@ -90,6 +92,12 @@ Shader "FX/FX_Lbeer_URP"
 		Cull [_Cull_Mode]
 		ZWrite Off
 		ZTest [_Depth]
+		Stencil
+		{
+			Ref [_Mengban_shuzhi]
+			Comp [_Mengban_]
+			Pass Replace
+		}
 		Blend SrcAlpha [_AddBlend]
 		
 		CGPROGRAM
@@ -115,6 +123,7 @@ Shader "FX/FX_Lbeer_URP"
 		uniform float _Depth;
 		uniform float _AddBlend;
 		uniform float _Cull_Mode;
+		uniform float _Mengban_shuzhi;
 		uniform sampler2D _Vertex_tex;
 		uniform float _Vertex_speed_U;
 		uniform float _Vertex_speed_V;
@@ -624,7 +633,7 @@ Node;AmplifyShaderEditor.SimpleAddOpNode;198;770.2778,29.86061;Inherit;False;3;3
 Node;AmplifyShaderEditor.RangedFloatNode;9;613.7958,-921.6151;Inherit;False;Property;_Depth;Depth;1;1;[Enum];Create;True;0;2;Off;2;On;8;0;True;0;False;2;2;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;6;340.0814,-922.9353;Inherit;False;Property;_AddBlend;Add/Blend;2;1;[Enum];Create;True;0;2;Add;1;Blend;10;0;True;0;False;10;10;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;7;481.2558,-921.0865;Inherit;False;Property;_Cull_Mode;Cull_Mode;0;1;[Enum];Create;True;0;0;1;UnityEngine.Rendering.CullMode;True;0;False;0;2;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;1442.848,-20.93484;Float;False;True;-1;2;ASEMaterialInspector;0;0;Unlit;FX/FX_Lbeer_URP;False;False;False;False;True;True;True;True;True;True;True;True;False;False;False;False;False;False;False;False;False;Back;2;False;;0;True;_Depth;False;0;False;;0;False;;False;0;Custom;0.5;True;False;0;True;Custom;;Transparent;All;12;all;True;True;True;True;0;False;;False;0;True;_Stencil_refernce;255;False;;255;False;;0;True;_Stencil_Comparision;0;True;_Stencil_Pass_front;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;2;15;10;25;False;0.5;False;1;5;False;;8;True;_AddBlend;0;0;False;;0;False;;0;False;;0;False;;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;True;Relative;0;;44;-1;-1;-1;0;False;0;0;True;_Cull_Mode;-1;0;False;;0;0;0;False;0.1;False;;0;False;;False;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
+Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;1442.848,-20.93484;Float;False;True;-1;2;ASEMaterialInspector;0;0;Unlit;FX/FX_Lbeer_URP;False;False;False;False;True;True;True;True;True;True;True;True;False;False;False;False;False;False;False;False;False;Back;2;False;;0;True;_Depth;False;0;False;;0;False;;False;0;Custom;0.5;True;False;0;True;Custom;;Transparent;All;12;all;True;True;True;True;0;False;;True;0;True;_Mengban_shuzhi;255;False;;255;False;;0;True;_Mengban_;3;False;_Stencil_Pass_front;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;2;15;10;25;False;0.5;False;1;5;False;;8;True;_AddBlend;0;0;False;;0;False;;0;False;;0;False;;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;True;Relative;0;;44;-1;-1;-1;0;False;0;0;True;_Cull_Mode;-1;0;False;;0;0;0;False;0.1;False;;0;False;;False;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
 Node;AmplifyShaderEditor.CommentaryNode;404;-2913.92,4168.196;Inherit;False;2648.629;641.0029;vertex;0;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.CommentaryNode;232;-1823.76,2462.185;Inherit;False;1376.669;470.7234;Dissolve_gradent;0;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.CommentaryNode;123;-2546.173,658.7106;Inherit;False;1985.907;618.8409;Mask_tex;0;;1,1,1,1;0;0
@@ -680,6 +689,8 @@ Node;AmplifyShaderEditor.WorldNormalVector;278;-2593.902,3755.983;Inherit;False;
 Node;AmplifyShaderEditor.ViewDirInputsCoordNode;279;-2620.902,3933.983;Inherit;False;World;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.SaturateNode;460;-2112.804,3788.262;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.DotProductOpNode;280;-2316.95,3774.544;Inherit;True;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;461;684.3431,-460.6945;Inherit;False;Property;_Mengban_shuzhi;Mengban_shuzhi;75;0;Create;True;0;0;0;True;0;False;0;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;462;690.3431,-383.6945;Inherit;False;Property;_Mengban_;Mengban_;76;1;[Enum];Fetch;True;0;0;1;UnityEngine.Rendering.CompareFunction;True;0;False;0;0;0;0;0;1;FLOAT;0
 WireConnection;267;0;266;0
 WireConnection;264;0;267;0
 WireConnection;106;0;103;0
@@ -994,4 +1005,4 @@ WireConnection;460;0;280;0
 WireConnection;280;0;278;0
 WireConnection;280;1;279;0
 ASEEND*/
-//CHKSM=D2CC47D35630BD4651AB451EFBF0444A97480C4C
+//CHKSM=044C475F39022A7E45D2638CCFF68F8B1A169EE4
