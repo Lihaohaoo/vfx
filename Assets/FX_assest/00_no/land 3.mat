@@ -97,6 +97,8 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
+    - _mengban: 8
+    - _mengban_shuzi: 1
     m_Colors:
     - _Albedo_color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
