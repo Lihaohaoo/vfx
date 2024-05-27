@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_ring_luoxuan_01
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAINPOLAR_ON _MAIN_SPLIT_A _MASK_SPLIT_A
+  m_ShaderKeywords: _MAINPOLAR_ON _MAIN_SPLIT_R _MASK_SPLIT_A
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 910bb252b7575ac41ad6520af3f1292c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3e69cca5f3ec05f4dbbb89f7467abbf9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex1:
@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 2800000, guid: ba3b158176c0cd749b1c088b09ac8091, type: 3}
+        m_Texture: {fileID: 2800000, guid: 56eae6f1d16e0814bb6ce6641a99336a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -203,10 +203,10 @@ Material:
     - _MainTex_U: 1
     - _MainTex_V: 0
     - _Main_Rotator: 0
-    - _Main_Split: 3
+    - _Main_Split: 0
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
-    - _Main_speed_V: 0.5
+    - _Main_speed_V: 0.1
     - _Main_tex_clamp: 0
     - _Main_tex_radial: 1
     - _Mask01Polar: 0
@@ -248,7 +248,7 @@ Material:
     - _Opacity: 1
     - _OpacityPower: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 1.1
+    - _Opacity_scale: 1
     - _OpenFixed: 0
     - _OpenFresnel: 0
     - _OpenNoise: 0
@@ -290,9 +290,9 @@ Material:
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _GradientTilingOffset2: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Tex: {r: 1, g: 0.2, b: 0, a: 0}
-    - _Main_color: {r: 2, g: 2, b: 2, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 3.5, a: 1}
+    - _Main_Tex: {r: 3, g: 0.2, b: 0, a: 0}
+    - _Main_color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    - _Main_control: {r: 3, g: 20, b: 1, a: 0.5}
     - _Mask01TilingOffset1: {r: 1, g: 1, b: 0, a: 0}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _MianTilingOffset: {r: 5, g: 0.2, b: 0, a: 0}
