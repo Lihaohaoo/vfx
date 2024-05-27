@@ -158,6 +158,8 @@ Material:
     - _Opacity_power: 1
     - _Opacity_scale: 1
     - _Parallax: 0.02
+    - _Radia_noise_ring: 0
+    - _Riadia_noise_UV: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -176,6 +178,7 @@ Material:
     - _Vertex_speed_V: 0
     - _Vertex_tex_radial: 0
     - _ZWrite: 1
+    - _Z_write_mode: 0
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
