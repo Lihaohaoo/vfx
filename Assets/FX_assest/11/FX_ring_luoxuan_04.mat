@@ -248,7 +248,7 @@ Material:
     - _Opacity: 1
     - _OpacityPower: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 5
+    - _Opacity_scale: 1
     - _OpenFixed: 0
     - _OpenFresnel: 0
     - _OpenNoise: 0

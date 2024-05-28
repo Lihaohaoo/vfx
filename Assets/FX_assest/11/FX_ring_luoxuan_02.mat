@@ -291,8 +291,8 @@ Material:
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _GradientTilingOffset2: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 23.968628, g: 23.968628, b: 23.968628, a: 1}
-    - _Main_control: {r: 10, g: 2, b: 0, a: 0.5}
+    - _Main_color: {r: 8, g: 8, b: 8, a: 1}
+    - _Main_control: {r: 4, g: 2, b: 0, a: 0.5}
     - _Mask01TilingOffset1: {r: 1, g: 1, b: 0, a: 0}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _MianTilingOffset: {r: 5, g: 0.2, b: 0, a: 0}
