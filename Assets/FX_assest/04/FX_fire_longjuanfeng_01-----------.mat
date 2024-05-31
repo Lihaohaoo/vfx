@@ -179,7 +179,7 @@ Material:
     - _Vertex_Rotator: 0
     - _Vertex_UV: 1
     - _Vertex_offset_scale: 2.43
-    - _Vertex_scale: 0.3
+    - _Vertex_scale: 0.5
     - _Vertex_screen_UV: 0
     - _Vertex_speed_U: 0
     - _Vertex_speed_V: 0
@@ -200,4 +200,4 @@ Material:
     - _Main_control: {r: 3.5, g: 2, b: 1, a: 0.5}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Vertex_Tex: {r: 2, g: 1, b: 0, a: 0}
+    - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
