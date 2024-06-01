@@ -40,12 +40,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matecap:
-        m_Texture: {fileID: 2800000, guid: 0813374a5cd61494594a9320e6911982, type: 3}
+        m_Texture: {fileID: 2800000, guid: dd5d009f43f5f624ebd820c33770406c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: a98c2424950e9b84894828f7c6004f11, type: 3}
+        m_Scale: {x: 2, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve:
         m_Texture: {fileID: 0}
@@ -86,7 +86,7 @@ Material:
     - _FixedPower1: 0.93
     - _Fresnel_Speed_U: 0
     - _Fresnel_Speed_V: 0
-    - _Fresnel_power: 5
+    - _Fresnel_power: 3
     - _Fresnel_scale: 3.92
     - _Graden_edge: 0
     - _Light_: 1
@@ -96,11 +96,11 @@ Material:
     - _Main_speed_V: 0
     - _Matcap_power: 1
     - _Matcap_scale: 1
-    - _Normal_scale: 2
+    - _Normal_scale: 0.5
     - _Normal_speed_U: 0
-    - _Normal_speed_V: 0.1
+    - _Normal_speed_V: 0
     - _Top_linght_power: 5
-    - _Top_linght_scale: 0.5
+    - _Top_linght_scale: 1.5
     - _Use_dissolve_gradent: 0
     - _Vertex_Rotator: 0
     - _Vertex_speed_U: 0

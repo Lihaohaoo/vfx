@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matecap:
-        m_Texture: {fileID: 2800000, guid: dd5d009f43f5f624ebd820c33770406c, type: 3}
+        m_Texture: {fileID: 2800000, guid: c08fc01a7a8fb224fa043020780bfcd6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 32572f8393fb141468e157fadb2046a9, type: 3}
+        m_Texture: {fileID: 2800000, guid: a98c2424950e9b84894828f7c6004f11, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve:
@@ -53,6 +53,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve_gradent:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Vertex:
+        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _tex4coord2:
@@ -71,6 +75,7 @@ Material:
     - _Cull_modo: 2
     - _Desatruate: 0
     - _Dissolve: -0.37
+    - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
     - _Dissolve_fanxiang: 1
     - _Dissolve_soft: 1
@@ -91,15 +96,19 @@ Material:
     - _Main_speed_V: 0
     - _Matcap_power: 1
     - _Matcap_scale: 1
-    - _Normal_scale: 0
+    - _Normal_scale: 0.2
     - _Normal_speed_U: 0
-    - _Normal_speed_V: 0
+    - _Normal_speed_V: 0.2
     - _Top_linght_power: 5
     - _Top_linght_scale: 0
     - _Use_dissolve_gradent: 0
+    - _Vertex_Rotator: 0
+    - _Vertex_speed_U: 0.5
+    - _Vertex_speed_V: 0
     - _Zwrite_modo: 0
     - __dirty: 0
     - _custom: 0
+    - _vertex_scale: 0.2
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_color: {r: 1, g: 1, b: 1, a: 1}
@@ -107,5 +116,6 @@ Material:
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mat_cap_control1: {r: 4, g: 2, b: 1, a: 0.73}
+    - _Mat_cap_control1: {r: 1, g: 1, b: 2.85, a: 1}
+    - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
