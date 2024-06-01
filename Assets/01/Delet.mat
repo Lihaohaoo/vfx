@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve:
-        m_Texture: {fileID: 2800000, guid: 04af40f6fb8d1a2459f914f8ebd40662, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3e69cca5f3ec05f4dbbb89f7467abbf9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve_gradent:
@@ -107,7 +107,7 @@ Material:
     - _Vertex_speed_V: 0
     - _Zwrite_modo: 0
     - __dirty: 0
-    - _custom: 0
+    - _custom: 1
     - _vertex_scale: 0.2
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
