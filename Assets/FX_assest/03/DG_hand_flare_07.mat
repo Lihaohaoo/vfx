@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: DG_hand_flare_07
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _ANTIDEPTHFADE_OFF _DISSOLVE_TONGDAO_R _MAINTEX_TONGDAO_A _MAIN_SPLIT_R
+  m_ShaderKeywords: _ANTIDEPTHFADE_OFF _DISSOLVE_TONGDAO_R _MAINTEX_TONGDAO_A _MAIN_SPLIT_A
     _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -69,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: b878c1d441134934caa2d7fb9e72acb5, type: 3}
+        m_Texture: {fileID: 2800000, guid: ee1b8f7d3eaab6f4180c8be71769cb9b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex1:
@@ -77,7 +77,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 2800000, guid: 462d0a760b5f48c4fb526e50326c357c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -89,7 +89,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise_tex:
-        m_Texture: {fileID: 2800000, guid: cd88907701b5f6c4f962ab9c097bd816, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3e69cca5f3ec05f4dbbb89f7467abbf9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -199,7 +199,7 @@ Material:
     - _MainTex_U: 0
     - _MainTex_V: 0
     - _Main_Rotator: 0
-    - _Main_Split: 0
+    - _Main_Split: 3
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
@@ -237,9 +237,9 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_UV: 0
     - _Noise_gradent: 0
-    - _Noise_scale: 0
+    - _Noise_scale: 0.3
     - _Noise_screen_UV: 0
-    - _Noise_speed_U: -0.5
+    - _Noise_speed_U: 0.1
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
     - _Noisek_offset_scale: 0
@@ -247,7 +247,7 @@ Material:
     - _OcclusionStrength: 1
     - _Opacity: 1
     - _OpacityPower: 1
-    - _Opacity_power: 0.5
+    - _Opacity_power: 1
     - _Opacity_scale: 2
     - _OpenFixed: 1
     - _OpenNoise: 0
@@ -291,11 +291,11 @@ Material:
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _GradientTilingOffset2: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Tex: {r: 2, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Main_color: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 1.2, a: 1}
     - _Mask01TilingOffset1: {r: 1, g: 1, b: 0, a: 0}
     - _Mask_Tex: {r: 1, g: 1.5, b: 0, a: 0}
     - _MianTilingOffset: {r: -1, g: 1, b: 0, a: 0}
-    - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Noise_Tex: {r: 1, g: 0.5, b: 0, a: 0}
     - _Vertex_Tex: {r: 1.2, g: 1.5, b: 0, a: 0}
