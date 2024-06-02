@@ -93,7 +93,7 @@ Material:
     - _Main_Rotator: 0
     - _Main_scale: 1
     - _Main_speed_U: 0
-    - _Main_speed_V: 0
+    - _Main_speed_V: 0.5
     - _Matcap_power: 1
     - _Matcap_scale: 1
     - _Normal_scale: 0.2
@@ -108,7 +108,7 @@ Material:
     - _Zwrite_modo: 0
     - __dirty: 0
     - _custom: 1
-    - _vertex_scale: 0.2
+    - _vertex_scale: 0.15
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_color: {r: 1, g: 1, b: 1, a: 1}
@@ -116,6 +116,6 @@ Material:
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mat_cap_control1: {r: 1, g: 1, b: 2.85, a: 1}
+    - _Mat_cap_control1: {r: 3, g: 1, b: 2.8, a: 0.5}
     - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}

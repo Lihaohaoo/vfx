@@ -116,6 +116,6 @@ Material:
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mat_cap_control1: {r: 1, g: 1, b: 1.3, a: 0.85}
+    - _Mat_cap_control1: {r: 1, g: 1, b: 1.55, a: 0.85}
     - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}

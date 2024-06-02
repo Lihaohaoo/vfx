@@ -137,7 +137,7 @@ Material:
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
     - _Main_Split: 3
-    - _Main_UV: 0
+    - _Main_UV: 1
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
     - _Main_speed_U: 0

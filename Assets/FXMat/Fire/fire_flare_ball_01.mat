@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise_tex:
-        m_Texture: {fileID: 2800000, guid: cd88907701b5f6c4f962ab9c097bd816, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Vertex_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: cd88907701b5f6c4f962ab9c097bd816, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -74,10 +74,13 @@ Material:
     - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
     - _Dissolve_gradent_Rotator: 0
+    - _Dissolve_offset_scale: 0
+    - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 0.328
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
+    - _Dissove_UV: 0
     - _Dissove_tex_clamp: 0
     - _Edge_black_scale: 0
     - _FixedPower1: 0.5
@@ -89,6 +92,8 @@ Material:
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
     - _Main_Split: 0
+    - _Main_UV: 0
+    - _Main_offset_scale: 0
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
     - _Main_speed_V: 0.2
@@ -96,16 +101,22 @@ Material:
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 0
+    - _Mask_UV: 0
+    - _Mask_offset_scale: 0
+    - _Mask_screen_UV: 0
     - _Mask_speed_U: 0
     - _Mask_speed_V: 0
     - _Mask_tex_clamp: 0
     - _Mask_tex_radial: 0
     - _Noise_Rotator: 0
+    - _Noise_UV: 0
     - _Noise_gradent: 0
     - _Noise_scale: 0.2
+    - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
+    - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _Opacity_power: 1
     - _Opacity_scale: 1
@@ -115,10 +126,14 @@ Material:
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
+    - _Vertex_UV: 0
+    - _Vertex_offset_scale: 0
     - _Vertex_scale: 0
+    - _Vertex_screen_UV: 0
     - _Vertex_speed_U: 0
     - _Vertex_speed_V: 0
     - _Vertex_tex_radial: 0
+    - _Z_write_mode: 0
     - __dirty: 0
     m_Colors:
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
