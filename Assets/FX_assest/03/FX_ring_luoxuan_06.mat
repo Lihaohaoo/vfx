@@ -141,7 +141,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _A_R: 0
-    - _AddBlend: 10
+    - _AddBlend: 1
     - _BumpScale: 1
     - _CullMode: 0
     - _Cull_Mode: 0
