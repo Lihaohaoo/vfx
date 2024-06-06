@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 46ecd398e9deeff449b5dcc5001c17c0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3a53c3dddade9de4d88ddd1da2a90a7d, type: 3}
         m_Scale: {x: 3, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -172,12 +172,12 @@ Material:
     - _Light_: 1
     - _Main_Rotator: 0
     - _Main_Split: 3
-    - _Main_UV: 0
-    - _Main_offset_scale: 0
+    - _Main_UV: 1
+    - _Main_offset_scale: -0.5
     - _Main_scale: 1
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
-    - _Main_speed_V: 0
+    - _Main_speed_V: 0.5
     - _Main_tex_clamp: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
@@ -241,9 +241,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 1, g: 1, b: 1, a: 1}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Main_Tex: {r: 3, g: 1, b: 0, a: 0}
     - _Main_color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1.35, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 3, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
     - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
