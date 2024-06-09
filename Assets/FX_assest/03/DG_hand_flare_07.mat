@@ -263,7 +263,7 @@ Material:
     - _TOP: 2
     - _UVSec: 0
     - _Use_Depth_fade: 0
-    - _Use_base_color: 1
+    - _Use_base_color: 0
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
