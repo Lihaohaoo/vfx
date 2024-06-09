@@ -173,7 +173,7 @@ Material:
     - _Main_Rotator: 0
     - _Main_Split: 0
     - _Main_UV: 1
-    - _Main_offset_scale: -0.5
+    - _Main_offset_scale: 0
     - _Main_scale: 1
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
