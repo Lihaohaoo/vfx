@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0d4b762968af53c489b508c64cc1099c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -115,7 +115,7 @@ Material:
     - _Dissolve_gradent_Rotator: 0
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 1
+    - _Dissolve_soft: 0.5
     - _Dissolve_speed_U: -0.3
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
@@ -142,7 +142,7 @@ Material:
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
     - _Main_tex_radial: 0
-    - _Mask_Rotator: 0
+    - _Mask_Rotator: 90
     - _Mask_Split: 0
     - _Mask_UV: 0
     - _Mask_offset_scale: 0
