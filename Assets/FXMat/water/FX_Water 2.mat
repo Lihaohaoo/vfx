@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matecap:
-        m_Texture: {fileID: 2800000, guid: b95b00480cbe25642a84478d276883ed, type: 3}
+        m_Texture: {fileID: 2800000, guid: c17ecc07f3d8c924ba93cd6d49ea6ffb, type: 3}
         m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -100,6 +100,7 @@ Material:
     - _Main_speed_V: 0
     - _Matcap_power: 1
     - _Matcap_scale: 1
+    - _Matcap_tex_scale: 1
     - _Normal_scale: 1
     - _Normal_speed_U: 0
     - _Normal_speed_V: 0
@@ -120,6 +121,6 @@ Material:
     - _Main_color: {r: 0.759434, g: 0.9298408, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 2, g: 2, b: 1.1, a: 0.9}
-    - _Mat_cap_control1: {r: 5, g: 1, b: 1.7, a: 0.85}
+    - _Mat_cap_control1: {r: 2, g: 1, b: 1.55, a: 0.5}
     - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}

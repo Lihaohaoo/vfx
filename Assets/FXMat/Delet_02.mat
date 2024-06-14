@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Delet_02
+  m_Shader: {fileID: 4800000, guid: 4654fd5f1da8d07499447fcc1f3ca0ae, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve_gradent:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolvegradent:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Frednel_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matecap:
+        m_Texture: {fileID: 2800000, guid: 0d84627ae603b654890e54ee7037b238, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: a98c2424950e9b84894828f7c6004f11, type: 3}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Dissolve:
+        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
+        m_Scale: {x: 1, y: 0.7}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Dissolve_gradent:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Vertex:
+        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Vertex_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cull_modo: 0
+    - _Desatruate: 0
+    - _Dissolve: 0
+    - _Dissolve_Rotator: 0
+    - _Dissolve_edge: 0
+    - _Dissolve_fanxiang: 1
+    - _Dissolve_soft: 1
+    - _Dissolve_soft_edge: 0.88
+    - _Dissolve_speed_U: 0.2
+    - _Dissolve_speed_V: 0
+    - _Emission_scale: 1
+    - _FixedPower1: 0
+    - _Fresnel_Speed_U: 0
+    - _Fresnel_Speed_V: 0
+    - _Fresnel_power: 1
+    - _Fresnel_scale: 0
+    - _Graden_edge: 0
+    - _Light_: 1
+    - _Main_Rotator: 0
+    - _Main_scale: 1
+    - _Main_speed_U: 0
+    - _Main_speed_V: 0
+    - _Matcap_power: 1
+    - _Matcap_scale: 1
+    - _Matcap_tex_scale: 1
+    - _Normal_scale: 1.3
+    - _Normal_speed_U: 0.2
+    - _Normal_speed_V: 0
+    - _Top_linght_power: 5
+    - _Top_linght_scale: 0
+    - _Use_dissolve_gradent: 0
+    - _Vertex_Rotator: 0
+    - _Vertex_speed_U: 0.2
+    - _Vertex_speed_V: 0
+    - _Zwrite_modo: 0
+    - __dirty: 0
+    - _custom: 1
+    - _vertex_scale: 0.5
+    m_Colors:
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Dissolve_color: {r: 0, g: 0.2375121, b: 0.6509434, a: 1}
+    - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Mat_cap_control: {r: 2, g: 2, b: 1.1, a: 0.9}
+    - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
+    - _Matcap_add_color: {r: 0.14053333, g: 0.14733332, b: 0.17, a: 1}
+    - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
