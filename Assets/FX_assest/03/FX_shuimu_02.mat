@@ -108,7 +108,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: -0.1}
     - _Vertex_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9603006cdcfee6243ae86c89a1ec4fad, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -124,7 +124,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _vertex_mask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: edabaac086d18aa46a5d7b1d0a908b1f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -222,7 +222,7 @@ Material:
     - _Vertex_Rotator: 0
     - _Vertex_UV: 0
     - _Vertex_offset_scale: 0
-    - _Vertex_scale: 0
+    - _Vertex_scale: 0.35
     - _Vertex_screen_UV: 0
     - _Vertex_speed_U: 0
     - _Vertex_speed_V: 1

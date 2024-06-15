@@ -222,7 +222,7 @@ Material:
     - _Vertex_Rotator: 0
     - _Vertex_UV: 0
     - _Vertex_offset_scale: 0
-    - _Vertex_scale: 0.15
+    - _Vertex_scale: 0.5
     - _Vertex_screen_UV: 0
     - _Vertex_speed_U: 0
     - _Vertex_speed_V: 1

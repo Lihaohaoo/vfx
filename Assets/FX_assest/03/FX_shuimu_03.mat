@@ -76,7 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 3fb99cfd03db4d3429399e7aaf7ab0bd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -176,8 +176,8 @@ Material:
     - _Main_offset_scale: 0
     - _Main_scale: 1
     - _Main_screen_UV: 0
-    - _Main_speed_U: 0
-    - _Main_speed_V: 0.8
+    - _Main_speed_U: 0.3
+    - _Main_speed_V: 0.2
     - _Main_tex_clamp: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 90
@@ -222,7 +222,7 @@ Material:
     - _Vertex_Rotator: 0
     - _Vertex_UV: 0
     - _Vertex_offset_scale: 0
-    - _Vertex_scale: 0.15
+    - _Vertex_scale: 0.5
     - _Vertex_screen_UV: 0
     - _Vertex_speed_U: 0
     - _Vertex_speed_V: 1
@@ -247,6 +247,6 @@ Material:
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
     - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
-    - _Noise_Tex: {r: 1, g: 0.5, b: 0, a: 0}
+    - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Top_light_color: {r: 0.16509432, g: 0.35214782, b: 1, a: 1}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
