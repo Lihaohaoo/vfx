@@ -48,8 +48,8 @@ Material:
         m_Scale: {x: 1, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve:
-        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
-        m_Scale: {x: 1, y: 0.7}
+        m_Texture: {fileID: 2800000, guid: 7779b822de6dd804da3b0148604b7e46, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve_gradent:
         m_Texture: {fileID: 0}
@@ -76,15 +76,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cull_modo: 0
+    - _Cull_modo: 2
     - _Desatruate: 0
     - _Dissolve: 0
     - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
     - _Dissolve_fanxiang: 1
     - _Dissolve_soft: 1
-    - _Dissolve_soft_edge: 0.88
-    - _Dissolve_speed_U: 0.2
+    - _Dissolve_soft_edge: 0
+    - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Emission_scale: 1
     - _FixedPower1: 0

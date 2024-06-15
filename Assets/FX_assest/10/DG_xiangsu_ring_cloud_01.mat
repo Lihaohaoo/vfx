@@ -157,11 +157,14 @@ Material:
     - _Dissolve_V: 0
     - _Dissolve_edge: 0
     - _Dissolve_gradent_Rotator: 0
+    - _Dissolve_offset_scale: 0
+    - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 1
     - _Dissolve_speed_U: -0.1
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
     - _Dissolve_tongdao: 0
+    - _Dissove_UV: 1
     - _Dissove_tex_clamp: 0
     - _Dst: 1
     - _DstBlend: 0
@@ -197,6 +200,8 @@ Material:
     - _MainTex_V: 0
     - _Main_Rotator: 0
     - _Main_Split: 0
+    - _Main_UV: 1
+    - _Main_offset_scale: 0
     - _Main_screen_UV: 0
     - _Main_speed_U: -0.2
     - _Main_speed_V: 0
@@ -210,6 +215,9 @@ Material:
     - _MaskTex_V2: 0
     - _Mask_Rotator: 270
     - _Mask_Split: 0
+    - _Mask_UV: 0
+    - _Mask_offset_scale: 0
+    - _Mask_screen_UV: 0
     - _Mask_speed_U: 0
     - _Mask_speed_V: 0
     - _Mask_tex_clamp: 1
@@ -227,11 +235,14 @@ Material:
     - _NoiseTex_U1: 0
     - _NoiseTex_V1: 0
     - _Noise_Rotator: 0
+    - _Noise_UV: 1
     - _Noise_gradent: 0
     - _Noise_scale: 0.2
+    - _Noise_screen_UV: 0
     - _Noise_speed_U: -0.5
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
+    - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 1
     - _OcclusionStrength: 1
     - _Opacity: 1
@@ -257,7 +268,10 @@ Material:
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
+    - _Vertex_UV: 0
+    - _Vertex_offset_scale: 0
     - _Vertex_scale: 0.2
+    - _Vertex_screen_UV: 0
     - _Vertex_speed_U: 0
     - _Vertex_speed_V: 0
     - _Vertex_tex_radial: 0
