@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2550
+  m_CustomRenderQueue: 2001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: e7fc3c0edcf25524f8bf046d40cb34e9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 527bf8960b2146f47a8c73182c3e83a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -64,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AddBlend: 10
+    - _AddBlend: 1
     - _Cull_Mode: 0
     - _Custom: 0
     - _Depth: 2
@@ -91,10 +91,10 @@ Material:
     - _Main_Split: 0
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
-    - _Main_speed_V: 0.2
+    - _Main_speed_V: 0.1
     - _Main_tex_clamp: 0
     - _Main_tex_radial: 0
-    - _Mask_Rotator: 180
+    - _Mask_Rotator: 0
     - _Mask_Split: 0
     - _Mask_speed_U: 0
     - _Mask_speed_V: 0
@@ -128,8 +128,8 @@ Material:
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Tex: {r: 2, g: 0.1, b: 0, a: 0}
-    - _Main_color: {r: 4, g: 2.416403, b: 0.8867924, a: 1}
+    - _Main_Tex: {r: 5, g: 0.4, b: 0, a: 0}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
