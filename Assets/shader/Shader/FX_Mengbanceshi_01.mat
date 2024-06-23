@@ -131,7 +131,7 @@ Material:
     - _Vertex_tex_radial: 0
     - __dirty: 0
     m_Colors:
-    - _Back_Color: {r: 0.2608129, g: 0, b: 0.6509434, a: 0.33333334}
+    - _Back_Color: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 0.19963247, g: 0, b: 0.3207547, a: 0.33333334}
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
