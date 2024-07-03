@@ -115,7 +115,7 @@ Material:
     - _Dissolve_gradent_Rotator: 180
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 0.925
+    - _Dissolve_soft: 0.8
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0

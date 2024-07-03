@@ -113,10 +113,13 @@ Material:
     - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
     - _Dissolve_gradent_Rotator: 0
+    - _Dissolve_offset_scale: 0
+    - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 0.5
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
+    - _Dissove_UV: 0
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
     - _Edge_black_scale: 0
@@ -134,6 +137,8 @@ Material:
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
     - _Main_Split: 0
+    - _Main_UV: 0
+    - _Main_offset_scale: 0
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
     - _Main_speed_V: 0.5
@@ -141,6 +146,9 @@ Material:
     - _Main_tex_radial: 0
     - _Mask_Rotator: 180
     - _Mask_Split: 0
+    - _Mask_UV: 0
+    - _Mask_offset_scale: 0
+    - _Mask_screen_UV: 0
     - _Mask_speed_U: 0
     - _Mask_speed_V: 0
     - _Mask_tex_clamp: 0
@@ -148,11 +156,14 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _Noise_Rotator: 0
+    - _Noise_UV: 0
     - _Noise_gradent: 0
     - _Noise_scale: 0.1
+    - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
+    - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1.2
@@ -171,11 +182,15 @@ Material:
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
+    - _Vertex_UV: 0
+    - _Vertex_offset_scale: 0
     - _Vertex_scale: 0
+    - _Vertex_screen_UV: 0
     - _Vertex_speed_U: 0
     - _Vertex_speed_V: 0
     - _Vertex_tex_radial: 0
     - _ZWrite: 1
+    - _Z_write_mode: 0
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -186,7 +201,7 @@ Material:
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tex: {r: 3, g: 0.5, b: 0, a: 0}
-    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
     - _Main_control: {r: 2.5, g: 10, b: 1, a: 0.06}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
