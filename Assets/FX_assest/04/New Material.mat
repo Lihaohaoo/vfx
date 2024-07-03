@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FX_Dissolve_USA_fire
+  m_Name: New Material
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_A _MASK_SPLIT_R
+  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 2800000, guid: cd88907701b5f6c4f962ab9c097bd816, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 7ade9cf86b7a2a34cbae85b565c77fa7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0c206f2a804dcc5499a1d4f6ab51c09b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -102,27 +102,27 @@ Material:
     m_Floats:
     - _AddBlend: 10
     - _BumpScale: 1
-    - _Cull_Mode: 2
+    - _Cull_Mode: 0
     - _Custom: 0
     - _Cutoff: 0.5
     - _Depth: 2
     - _Depth_fade: 0
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
-    - _Dissolve: 0.66
+    - _Dissolve: 0
     - _Dissolve_Rotator: 0
     - _Dissolve_gradent_Rotator: 0
-    - _Dissolve_offset_scale: 0.78
+    - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 0.083
+    - _Dissolve_soft: 0.5
     - _Dissolve_speed_U: 0
-    - _Dissolve_speed_V: 0.2
+    - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
-    - _Dissove_UV: 1
+    - _Dissove_UV: 0
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
-    - _Edge_black_scale: 0.075
-    - _FixedPower1: 0.271
+    - _Edge_black_scale: 0
+    - _FixedPower1: 0.5
     - _Fresnel_one_minus: 0
     - _Fresnelpower: 1
     - _GlossMapScale: 1
@@ -133,14 +133,14 @@ Material:
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
-    - _Main_Split: 3
+    - _Main_Split: 0
     - _Main_UV: 1
-    - _Main_offset_scale: 1.21
+    - _Main_offset_scale: 0.93
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
-    - _Main_tex_radial: 0
+    - _Main_tex_radial: 1
     - _Mask_Rotator: 0
     - _Mask_Split: 0
     - _Mask_UV: 0
@@ -153,15 +153,15 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _Noise_Rotator: 0
-    - _Noise_UV: 1
+    - _Noise_UV: 0
     - _Noise_gradent: 0
     - _Noise_scale: 0
     - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: 0
-    - _Noise_tex_radial: 1
-    - _Noisek_offset_scale: 0.3
-    - _Nosie_dissolve: 1
+    - _Noise_tex_radial: 0
+    - _Noisek_offset_scale: 0
+    - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
     - _Opacity_scale: 1
@@ -171,7 +171,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _Use_Depth_fade: 0
-    - _Use_base_color: 1
+    - _Use_base_color: 0
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
@@ -189,15 +189,15 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Dissolve_Tex: {r: 3, g: 0.8, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Tex: {r: 2, g: 2, b: 0, a: 0}
-    - _Main_color: {r: 0.252629, g: 0.245152, b: 0.376, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 0.5, a: 0.5}
+    - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Noise_Tex: {r: 2, g: 0.5, b: 0, a: 0}
+    - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
