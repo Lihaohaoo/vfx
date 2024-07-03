@@ -161,7 +161,7 @@ Material:
     - _Fresnel_one_minus: 0
     - _Fresnel_power: 1
     - _Fresnel_scale: 0
-    - _Fresnelpower: 3
+    - _Fresnelpower: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -218,7 +218,8 @@ Material:
     - _Use_base_color: 1
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 1
-    - _Use_fresnel_opacity: 0
+    - _Use_fresnel_opacity: 1
+    - _V_power1: 1
     - _Vertex_Rotator: 0
     - _Vertex_UV: 0
     - _Vertex_offset_scale: 0
@@ -239,7 +240,7 @@ Material:
     - _Dissolve_color: {r: 0.8726415, g: 0.90635407, b: 1, a: 1}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Fresnel_color: {r: 0, g: 0.12358534, b: 0.3679245, a: 1}
+    - _Fresnel_color: {r: 0.25882354, g: 0.85490197, b: 2, a: 1}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}

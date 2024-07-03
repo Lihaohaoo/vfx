@@ -194,7 +194,7 @@ Material:
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0.09732112, g: 0.30288315, b: 0.764151, a: 0}
-    - _Gradent_Tex: {r: 5, g: 1, b: 0, a: 0}
+    - _Gradent_Tex: {r: 5, g: 5, b: 0, a: 0}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 1.1486983, g: 1.1486983, b: 1.1486983, a: 1}
     - _Main_control: {r: 2, g: 5, b: 1.5, a: 0.5}

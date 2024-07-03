@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matecap:
-        m_Texture: {fileID: 2800000, guid: c17ecc07f3d8c924ba93cd6d49ea6ffb, type: 3}
+        m_Texture: {fileID: 2800000, guid: bc6ec9b6bb154ef41a504c1a0141c0d9, type: 3}
         m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -87,7 +87,7 @@ Material:
     - _Dissolve_soft_edge: 1
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
-    - _Emission_scale: 1.1
+    - _Emission_scale: 1
     - _FixedPower1: 0
     - _Fresnel_Speed_U: 0
     - _Fresnel_Speed_V: 0
@@ -120,9 +120,9 @@ Material:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_color: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
-    - _Main_color: {r: 0.8160377, g: 0.91897696, b: 1, a: 1}
+    - _Main_color: {r: 0.86595744, g: 0.85, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 2, g: 2, b: 1.1, a: 0.9}
-    - _Mat_cap_control1: {r: 2, g: 1, b: 1.55, a: 0.5}
-    - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
+    - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
+    - _Matcap_add_color: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
