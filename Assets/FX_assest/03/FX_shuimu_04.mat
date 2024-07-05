@@ -242,7 +242,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 1.415265, g: 2.893627, b: 6.1231866, a: 1}
     - _Gradent_Tex: {r: 1, g: 2, b: 0, a: 0}
-    - _Main_Tex: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
     - _Main_control: {r: 1, g: 3, b: 2, a: 0.5}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}

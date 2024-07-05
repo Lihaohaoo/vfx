@@ -77,6 +77,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cull_modo: 2
+    - _Depth_fade: 0
     - _Desatruate: 0
     - _Dissolve: -0.37
     - _Dissolve_Rotator: 0
@@ -106,6 +107,7 @@ Material:
     - _Normal_speed_V: 0.2
     - _Top_linght_power: 5
     - _Top_linght_scale: 0
+    - _Use_Depth_fade: 0
     - _Use_dissolve_gradent: 0
     - _Vertex_Rotator: 0
     - _Vertex_speed_U: 0.5
@@ -121,6 +123,6 @@ Material:
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mat_cap_control1: {r: 3, g: 1, b: 2.8, a: 0.5}
+    - _Mat_cap_control1: {r: 3, g: 2, b: 2.8, a: 0.5}
     - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
