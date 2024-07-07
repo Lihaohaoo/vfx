@@ -69,7 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BlurFactor: 0
-    - _BlurFactorK: 0
+    - _BlurFactorK: 0.026276022
     - _BumpScale: 1
     - _ColorStyle: 0
     - _Cutoff: 0.5
@@ -102,7 +102,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RedBlueFactor: 0
-    - _RedBlueFactorK: 0
+    - _RedBlueFactorK: 0.066844106
     - _SmoothnessTextureChannel: 0
     - _Soft: 0.5
     - _SpecularHighlights: 1
@@ -114,7 +114,7 @@ Material:
     - _TexRotator: 0.075
     - _UVSec: 0
     - _VignettePower: 1.5
-    - _VignettePowerK: 2.08
+    - _VignettePowerK: 1.2
     - _VignetteScale: 1.5
     - _VignetteScaleK: 0
     - _ZWrite: 1

@@ -103,6 +103,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Vertex_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Vertex_tex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -131,7 +135,7 @@ Material:
     - _Custom: 0
     - _Cutoff: 0.5
     - _Depth: 2
-    - _Depth_fade: 0
+    - _Depth_fade: 0.5
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
     - _Dissolve: 0
@@ -177,6 +181,7 @@ Material:
     - _Mask_speed_V: 0
     - _Mask_tex_clamp: 0
     - _Mask_tex_radial: 0
+    - _Matcap_tex_scale: 1
     - _Metallic: 0
     - _Mode: 0
     - _Noise_Rotator: 0
