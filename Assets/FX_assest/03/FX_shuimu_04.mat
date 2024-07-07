@@ -135,7 +135,7 @@ Material:
     - _Custom: 1
     - _Cutoff: 0.5
     - _Depth: 2
-    - _Depth_fade: 0
+    - _Depth_fade: 1
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
     - _Dissolve: 0.67
@@ -214,7 +214,7 @@ Material:
     - _Top_linght_power: 3
     - _Top_linght_scale: 3
     - _UVSec: 0
-    - _Use_Depth_fade: 0
+    - _Use_Depth_fade: 1
     - _Use_base_color: 1
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 1
