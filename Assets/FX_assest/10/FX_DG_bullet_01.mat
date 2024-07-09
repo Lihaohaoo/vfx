@@ -118,7 +118,7 @@ Material:
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 3
     - _Dissolve_tex_radial: 0
-    - _Dissove_UV: 0
+    - _Dissove_UV: 1
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
     - _Edge_black_scale: 0
@@ -134,7 +134,7 @@ Material:
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
     - _Main_Split: 0
-    - _Main_UV: 0
+    - _Main_UV: 1
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
@@ -143,7 +143,7 @@ Material:
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 0
-    - _Mask_UV: 0
+    - _Mask_UV: 1
     - _Mask_offset_scale: 0
     - _Mask_screen_UV: 0
     - _Mask_speed_U: 0
