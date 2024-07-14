@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 6570242659117600252}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -336,7 +336,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Bullet_01
+    m_DisplayName: Bullet_01_head_back01
   m_Markers:
     m_Objects: []
 --- !u!114 &-7651710955501318898
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 6570242659117600252}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -1439,7 +1439,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: water_small (3)
+    m_DisplayName: water_small04
   m_Markers:
     m_Objects: []
 --- !u!114 &-1086233698256039875
@@ -1559,8 +1559,8 @@ MonoBehaviour:
     m_Start: 2.683333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -3370640530379276391}
-    m_Duration: 7.333333333333332
-    m_TimeScale: 0.5
+    m_Duration: 3.6666666666666665
+    m_TimeScale: 0.9999999999999999
     m_ParentTrack: {fileID: -1039263989674202214}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -1623,7 +1623,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Bullet_04
+    m_DisplayName: Bullet_01_head_back_big
   m_Markers:
     m_Objects: []
 --- !u!114 &11400000
@@ -1644,9 +1644,6 @@ MonoBehaviour:
   - {fileID: -7651710955501318898}
   - {fileID: 1061840711245294600}
   - {fileID: 6570242659117600252}
-  - {fileID: -9094525614712273470}
-  - {fileID: -3640368197648420472}
-  - {fileID: 2291394682034668659}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -1895,7 +1892,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 6570242659117600252}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -2007,7 +2004,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 6570242659117600252}
@@ -2081,7 +2078,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: water_small (1)
+    m_DisplayName: water_small02
   m_Markers:
     m_Objects: []
 --- !u!114 &4696526558373496997
@@ -2122,7 +2119,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 6570242659117600252}
@@ -2196,7 +2193,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Bullet_01 (2)
+    m_DisplayName: Bullet_01_head_back03
   m_Markers:
     m_Objects: []
 --- !u!74 &6178754508308487083
@@ -3221,7 +3218,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: water_small
+    m_DisplayName: water_small01
   m_Markers:
     m_Objects: []
 --- !u!114 &6570242659117600252
@@ -3246,9 +3243,9 @@ MonoBehaviour:
   m_Children:
   - {fileID: -7684832505171464313}
   - {fileID: 8063754959045322183}
+  - {fileID: 4916929473906599742}
   - {fileID: 6329123250422258613}
   - {fileID: 4418666439568412118}
-  - {fileID: 4916929473906599742}
   - {fileID: 7172256370932528902}
   - {fileID: -1039263989674202214}
   - {fileID: -1207420097644302727}
@@ -3256,6 +3253,9 @@ MonoBehaviour:
   - {fileID: -1086233698256039875}
   - {fileID: -3314012679838310051}
   - {fileID: 1498528080777112955}
+  - {fileID: -9094525614712273470}
+  - {fileID: -3640368197648420472}
+  - {fileID: 2291394682034668659}
   m_Clips: []
   m_Markers:
     m_Objects: []
@@ -3274,7 +3274,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 6570242659117600252}
@@ -3348,7 +3348,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: water_small (2)
+    m_DisplayName: water_small03
   m_Markers:
     m_Objects: []
 --- !u!114 &8063754959045322183
@@ -3366,7 +3366,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 6570242659117600252}
@@ -3440,6 +3440,6 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Bullet_01 (1)
+    m_DisplayName: Bullet_01_head_back02
   m_Markers:
     m_Objects: []

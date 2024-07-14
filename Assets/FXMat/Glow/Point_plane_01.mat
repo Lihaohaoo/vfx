@@ -99,11 +99,14 @@ Material:
     - _Dissolve_edge: 0
     - _Dissolve_fanxiang: 1
     - _Dissolve_gradent_Rotator: 0
+    - _Dissolve_offset_scale: 0
+    - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 1
     - _Dissolve_soft_edge: 1
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
+    - _Dissove_UV: 0
     - _Dissove_tex_clamp: 0
     - _Edge_black_scale: 0
     - _Emission_scale: 1.1
@@ -117,6 +120,8 @@ Material:
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
     - _Main_Split: 0
+    - _Main_UV: 0
+    - _Main_offset_scale: 0
     - _Main_scale: 1
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
@@ -125,18 +130,24 @@ Material:
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 0
-    - _Mask_speed_U: 0.5
+    - _Mask_UV: 0
+    - _Mask_offset_scale: 0
+    - _Mask_screen_UV: 0
+    - _Mask_speed_U: 2
     - _Mask_speed_V: 0
     - _Mask_tex_clamp: 0
     - _Mask_tex_radial: 0
     - _Matcap_power: 1
     - _Matcap_scale: 1
     - _Noise_Rotator: 0
+    - _Noise_UV: 0
     - _Noise_gradent: 0
     - _Noise_scale: 0
+    - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
+    - _Noisek_offset_scale: 0
     - _Normal_scale: 0.8
     - _Nosie_dissolve: 0
     - _Opacity_power: 1
@@ -150,10 +161,14 @@ Material:
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
+    - _Vertex_UV: 0
+    - _Vertex_offset_scale: 0
     - _Vertex_scale: 0
+    - _Vertex_screen_UV: 0
     - _Vertex_speed_U: 0
     - _Vertex_speed_V: 0
     - _Vertex_tex_radial: 0
+    - _Z_write_mode: 0
     - __dirty: 0
     - _custom: 1
     m_Colors:
@@ -163,6 +178,8 @@ Material:
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
+    - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 2, g: 50, b: 1, a: 0.5}
