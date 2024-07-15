@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 2800000, guid: ec3ddf839ad51dd41943dc1c20c36639, type: 3}
+        m_Texture: {fileID: 2800000, guid: b02e4785728929b42bfb178f62537738, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Gradent_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8f6c31a4aaedea044bdc983237422025, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -107,7 +107,7 @@ Material:
     - _Cutoff: 0.5
     - _Depth: 2
     - _Depth_fade: 0
-    - _Desatruate: 0
+    - _Desatruate: 0.5
     - _DetailNormalMapScale: 1
     - _Dissolve: 0
     - _Dissolve_Rotator: 0
@@ -131,7 +131,7 @@ Material:
     - _Gradent_Rotator: 0
     - _Gradent_speed_U: 0
     - _Gradent_speed_V: 0
-    - _Gradent_tex_radial: 0
+    - _Gradent_tex_radial: 1
     - _Main_Rotator: 0
     - _Main_Split: 0
     - _Main_UV: 0
@@ -188,17 +188,17 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Dissolve_Tex: {r: 3, g: 0.5, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 5, g: 0.8, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Color_0: {r: 0.11160554, g: 0.21314651, b: 0.41509432, a: 0}
+    - _Main_Color_0: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Tex: {r: 2, g: 0.5, b: 0, a: 0}
-    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Tex: {r: 5, g: 0.5, b: 0, a: 0}
+    - _Main_color: {r: 2, g: 2, b: 2, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 2, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 5, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
