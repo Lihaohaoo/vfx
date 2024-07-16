@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_ring_luoxuan_01
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAINPOLAR_ON _MAIN_SPLIT_G _MASK_SPLIT_A
+  m_ShaderKeywords: _MAINPOLAR_ON _MAIN_SPLIT_A _MASK_SPLIT_A
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 2800000, guid: c629942dbfd4ad0438811107b4ca05a1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 997ec7826cab029429568e871f316f10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveTex:
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 7257087836ac5b741ad6ebb5c707932e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 684433dd900e59d4882d0796366ffd75, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex1:
@@ -206,7 +206,7 @@ Material:
     - _MainTex_U: 1
     - _MainTex_V: 0
     - _Main_Rotator: 0
-    - _Main_Split: 1
+    - _Main_Split: 3
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
@@ -295,7 +295,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveLineColor1: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveTilingOffset: {r: 1, g: 1, b: 0, a: 0}
-    - _Dissolve_Tex: {r: 3, g: 0.5, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 5, g: 0.5, b: 0, a: 0}
     - _Dissolve_color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

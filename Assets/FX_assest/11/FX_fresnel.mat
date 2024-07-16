@@ -124,7 +124,7 @@ Material:
     - _Edge_black_scale: 0
     - _FixedPower1: 0.5
     - _Fresnel_one_minus: 0
-    - _Fresnelpower: 1.5
+    - _Fresnelpower: 1.8
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -197,7 +197,7 @@ Material:
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 1.4588236, g: 1.8666667, b: 2.9960785, a: 1}
+    - _Main_color: {r: 1.184933, g: 1.7710289, b: 2.433572, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
