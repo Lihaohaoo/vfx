@@ -10,7 +10,7 @@ Material:
   m_Name: FX_wenli_03
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
   m_ShaderKeywords: _ANTIDEPTHFADE_OFF _DISSOLVE_TONGDAO_R _MAINTEX_TONGDAO_A _MAIN_SPLIT_R
-    _MASK_SPLIT_A
+    _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -77,7 +77,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 2800000, guid: 5ea3303997da29449a53e6aab2622a63, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2546d256b6ed1cc4897f6f7ba504a620, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -214,7 +214,7 @@ Material:
     - _MaskTex_U2: 0
     - _MaskTex_V2: 0
     - _Mask_Rotator: 0
-    - _Mask_Split: 3
+    - _Mask_Split: 0
     - _Mask_UV: 0
     - _Mask_offset_scale: 0
     - _Mask_screen_UV: 0
