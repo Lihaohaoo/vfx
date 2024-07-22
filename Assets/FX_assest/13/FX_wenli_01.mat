@@ -248,7 +248,7 @@ Material:
     - _Opacity: 1
     - _OpacityPower: 1
     - _Opacity_power: 2
-    - _Opacity_scale: 0.5
+    - _Opacity_scale: 1
     - _OpenFixed: 1
     - _OpenNoise: 0
     - _Parallax: 0.02
