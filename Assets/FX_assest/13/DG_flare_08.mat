@@ -159,7 +159,7 @@ Material:
     - _Dissolve_gradent_Rotator: 0
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 0.08
+    - _Dissolve_soft: 0.7
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
@@ -248,7 +248,7 @@ Material:
     - _Opacity: 1
     - _OpacityPower: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 2
+    - _Opacity_scale: 3
     - _OpenFixed: 1
     - _OpenNoise: 0
     - _Parallax: 0.02

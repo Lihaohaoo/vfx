@@ -293,7 +293,7 @@ Material:
     - _GradientTilingOffset2: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Tex: {r: 3, g: 0.01, b: 0, a: 0}
+    - _Main_Tex: {r: 5, g: 0.01, b: 0, a: 0}
     - _Main_color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask01TilingOffset1: {r: 1, g: 1, b: 0, a: 0}
