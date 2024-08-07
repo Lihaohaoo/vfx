@@ -56,6 +56,11 @@ namespace AmplifyShaderEditor
 		{
 			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "899e609c083c74c4ca567477c39edef0" );
 		}
+		[MenuItem( "Assets/Create/Amplify Shader/Templates/TwoPassUnit", false, 85 )]
+		public static void ApplyTemplateTemplatesTwoPassUnit()
+		{
+			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "2b1999bb7213f344fba1c3122eb96311" );
+		}
 		[MenuItem( "Assets/Create/Amplify Shader/UI/Default", false, 85 )]
 		public static void ApplyTemplateUIDefault()
 		{
