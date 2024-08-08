@@ -141,7 +141,7 @@ Material:
     - _Main_speed_V: 0
     - _Main_tex_clamp: 1
     - _Main_tex_radial: 0
-    - _Mask_Rotator: 90
+    - _Mask_Rotator: 270
     - _Mask_Split: 0
     - _Mask_UV: 0
     - _Mask_offset_scale: 0
