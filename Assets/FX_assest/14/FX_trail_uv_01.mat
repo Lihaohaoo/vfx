@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Gradent_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0b233ed81dd84f34a96f844941b96888, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -107,7 +107,7 @@ Material:
     - _Cutoff: 0.5
     - _Depth: 2
     - _Depth_fade: 0
-    - _Desatruate: 0
+    - _Desatruate: 0.7
     - _DetailNormalMapScale: 1
     - _Dissolve: 0
     - _Dissolve_Rotator: 0
@@ -128,7 +128,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Gradent_Rotator: 0
+    - _Gradent_Rotator: -90
     - _Gradent_speed_U: 0
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
@@ -199,6 +199,6 @@ Material:
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 2, g: 2, b: 2, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Mask_Tex: {r: 1, g: 1, b: 0, a: -0.011}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
