@@ -56,23 +56,32 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\shader\Shader\PlanarReflection.cs" />
+    <Compile Include="Assets\FX_assest\00_no\trail_main.cs" />
+    <Compile Include="Assets\shader\Ref_Land\PlanarReflection.cs" />
     <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\PandaDrawer.cs" />
     <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\PandaPostGUI_V1.0.cs" />
     <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\PandaPostProcess.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\shader\Ref_Land\KawaseBlur.shader" />
+    <None Include="Assets\shader\Ref_Land\ReflectionTex.shader" />
     <None Include="Assets\shader\Shader\FX_Sence.shader" />
-    <None Include="Assets\shader\Shader\FX_Water01.shader" />
+    <None Include="Assets\VFXCore.shader" />
     <None Include="Assets\shader\Shader\KawaseBlur.shader" />
     <None Include="Assets\shader\Shader\FX_Water.shader" />
+    <None Include="Assets\shader\Shader\FX_tiehua.shader" />
+    <None Include="Assets\shader\Shader\FX_Start.shader" />
     <None Include="Assets\shader\Shader\FX_pit_para.shader" />
+    <None Include="Assets\shader\Shader\FX_xishou_vertex.shader" />
+    <None Include="Assets\shader\Shader\FX_Lbeer_mengban.shader" />
     <None Include="Assets\shader\Shader\FX_ref.shader" />
     <None Include="Assets\shader\Shader\FX_ice.shader" />
     <None Include="Assets\shader\panda\PandaPost1.0\PandaPostV1.0.shader" />
+    <None Include="Assets\shader\Shader\FX_Two_pass.shader" />
     <None Include="Assets\shader\Shader\FX_2.shader" />
     <None Include="Assets\shader\Shader\FX_Sky_box.shader" />
     <None Include="Assets\shader\Shader\FX_screen_water.shader" />
+    <None Include="Assets\shader\Shader\FX_Lbeer_mengban_mask.shader" />
     <None Include="Assets\shader\Shader\FX_Lbeer.shader" />
   </ItemGroup>
   <ItemGroup>

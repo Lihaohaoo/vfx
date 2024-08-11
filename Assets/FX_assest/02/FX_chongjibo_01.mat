@@ -116,7 +116,7 @@ Material:
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 0.86
-    - _Dissolve_speed_U: -1.5
+    - _Dissolve_speed_U: -2.5
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
     - _Dissove_UV: 0
@@ -195,6 +195,8 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
+    - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Tex: {r: 1, g: 2, b: 0, a: 0}
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
