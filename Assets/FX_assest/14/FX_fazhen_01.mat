@@ -112,11 +112,11 @@ Material:
     - _Dissolve: 0
     - _Dissolve_Rotator: 0
     - _Dissolve_gradent_Rotator: 0
-    - _Dissolve_offset_scale: -0.25
+    - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 0.72
     - _Dissolve_speed_U: 0
-    - _Dissolve_speed_V: 0.5
+    - _Dissolve_speed_V: -0.5
     - _Dissolve_tex_radial: 1
     - _Dissove_UV: 1
     - _Dissove_tex_clamp: 0

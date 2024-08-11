@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise_tex:
-        m_Texture: {fileID: 2800000, guid: 10e6e337209df9a42acd109de0323e68, type: 3}
+        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -214,10 +214,10 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_UV: 0
     - _Noise_gradent: 0
-    - _Noise_scale: 0
+    - _Noise_scale: 0.1
     - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
-    - _Noise_speed_V: -0.2
+    - _Noise_speed_V: 0.5
     - _Noise_tex_radial: 0
     - _Noisek_offset_scale: 0
     - _Normal_scale: 0.75
@@ -281,7 +281,7 @@ Material:
     - _Main_tex_control: {r: 1, g: 1, b: 0, a: 0}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
-    - _Noise_Tex: {r: 1, g: 1.5, b: 0, a: 0}
+    - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Tex_01_color: {r: 0, g: 0, b: 0, a: 0}
     - _Tex_02_color: {r: 0, g: 0, b: 0, a: 0}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
