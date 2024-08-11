@@ -214,7 +214,7 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_UV: 0
     - _Noise_gradent: 0
-    - _Noise_scale: 0.1
+    - _Noise_scale: -0.1
     - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: 0.5
