@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 2, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
         m_Scale: {x: 2, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _Tex_Dissolve_gradent:
@@ -86,7 +86,7 @@ Material:
     - _Dissolve_soft: 1
     - _Dissolve_soft_edge: 1
     - _Dissolve_speed_U: 0
-    - _Dissolve_speed_V: 0
+    - _Dissolve_speed_V: -0.25
     - _Emission_scale: 1
     - _FixedPower1: 0.93
     - _Fresnel_Speed_U: 0
