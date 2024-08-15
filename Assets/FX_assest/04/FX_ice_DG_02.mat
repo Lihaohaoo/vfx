@@ -164,7 +164,7 @@ Material:
     - _Nosie_dissolve: 1
     - _OcclusionStrength: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 1
+    - _Opacity_scale: 2
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -196,9 +196,9 @@ Material:
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Tex: {r: 1.6, g: 1, b: 0, a: 0.01}
+    - _Main_Tex: {r: 1, g: 1, b: 0, a: 0.01}
     - _Main_color: {r: 2, g: 2, b: 2, a: 1}
-    - _Main_control: {r: 8, g: 1, b: 0.4, a: 0.5}
+    - _Main_control: {r: 8, g: 10, b: 1, a: 0.5}
     - _Mask_Tex: {r: 1.5, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 3, g: 0.8, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
