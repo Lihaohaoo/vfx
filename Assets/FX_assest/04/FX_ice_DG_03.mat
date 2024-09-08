@@ -114,7 +114,7 @@ Material:
     - _Dissolve_gradent_Rotator: 0
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 0.925
+    - _Dissolve_soft: 0.38
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
@@ -199,6 +199,6 @@ Material:
     - _Main_Tex: {r: 1.6, g: 1, b: 0, a: 0.01}
     - _Main_color: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
     - _Main_control: {r: 8, g: 1, b: 0.4, a: 0.5}
-    - _Mask_Tex: {r: 1.5, g: 1, b: 0, a: 0}
+    - _Mask_Tex: {r: 1.5, g: 1, b: 0, a: -0.15}
     - _Noise_Tex: {r: 3, g: 0.8, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
