@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_cao_01
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_A _MASK_SPLIT_R
+  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 420ee792d8ed7f64bbb2eb3f41bbe1d0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 625be5c34c3160a4da84f7e7ce7fcfdc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -133,7 +133,7 @@ Material:
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
-    - _Main_Split: 3
+    - _Main_Split: 0
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
@@ -155,7 +155,7 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_UV: 0
     - _Noise_gradent: 0
-    - _Noise_scale: 0.2
+    - _Noise_scale: 0
     - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: -0.2
@@ -164,7 +164,7 @@ Material:
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 1
+    - _Opacity_scale: 2
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -194,7 +194,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Tex: {r: 5, g: 1, b: 0, a: 0}
+    - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
+    - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}

@@ -105,7 +105,7 @@ Material:
     - _Normal_scale: 0.5
     - _Normal_speed_U: 0
     - _Normal_speed_V: 0
-    - _Top_linght_power: 5
+    - _Top_linght_power: 3.5
     - _Top_linght_scale: 1.5
     - _Use_Depth_fade: 0
     - _Use_dissolve_gradent: 0
@@ -123,6 +123,6 @@ Material:
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
-    - _Matcap_add_color: {r: 0, g: 0, b: 0, a: 0}
+    - _Mat_cap_control1: {r: 3.5, g: 1, b: 0.8, a: 0.5}
+    - _Matcap_add_color: {r: 0.16108933, g: 0.17580393, b: 0.18867922, a: 0}
     - _Top_light_color: {r: 0.31199998, g: 0.4625062, b: 1, a: 1}

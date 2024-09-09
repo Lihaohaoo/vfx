@@ -39,6 +39,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Dissovle01_tex:
+        m_Texture: {fileID: 2800000, guid: 8ba3f56806d721143b158dec6ad56657, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissovle02_tex:
+        m_Texture: {fileID: 2800000, guid: 8ba3f56806d721143b158dec6ad56657, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Dissovle_tex:
         m_Texture: {fileID: 2800000, guid: 8ba3f56806d721143b158dec6ad56657, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -90,6 +98,10 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _Dissolve: 0.25582194
+    - _Dissolve01: 0.25582194
+    - _Dissolve01_Soft: 0.78
+    - _Dissolve02: 0.2558219
+    - _Dissolve02_Soft: 0.78
     - _Dissolve_Soft: 0.78
     - _DstBlend: 0
     - _Emissive_power: 2.2
@@ -105,6 +117,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _Use_dissolve_02: 0
     - _Wenli_tex_U: 0.1
     - _Wenli_tex_V: 0.1
     - _ZWrite: 1
