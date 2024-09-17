@@ -102,7 +102,7 @@ Material:
     - _Matcap_power: 1
     - _Matcap_scale: 1
     - _Matcap_tex_scale: 1
-    - _Normal_scale: 1.5
+    - _Normal_scale: 1
     - _Normal_speed_U: 0
     - _Normal_speed_V: 0
     - _Top_linght_power: 5
