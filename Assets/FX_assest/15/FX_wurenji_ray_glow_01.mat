@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_wurenji_ray_glow_01
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_A _MASK_SPLIT_R
+  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Gradent_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c788e277a6eaa524dae236a7a6362bfb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
@@ -85,12 +85,12 @@ Material:
     - _FixedPower1: 0.5
     - _Fresnel_one_minus: 0
     - _Fresnelpower: 1
-    - _Gradent_Rotator: 0
+    - _Gradent_Rotator: 270
     - _Gradent_speed_U: 0
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
     - _Main_Rotator: -90
-    - _Main_Split: 3
+    - _Main_Split: 0
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
@@ -118,7 +118,7 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _Opacity_power: 1
-    - _Opacity_scale: 1
+    - _Opacity_scale: 2
     - _Use_Depth_fade: 0
     - _Use_base_color: 0
     - _Use_dissolve_gradent: 0
