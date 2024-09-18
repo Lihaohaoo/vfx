@@ -67,7 +67,7 @@ Material:
     - _AddBlend: 1
     - _Cull_Mode: 0
     - _Custom: 0
-    - _Depth: 2
+    - _Depth: 8
     - _Depth_fade: 0
     - _Desatruate: 0
     - _Dissolve: 0
