@@ -132,7 +132,7 @@ Material:
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
     - _Dissolve: 0
-    - _Dissolve_Rotator: 25
+    - _Dissolve_Rotator: 0
     - _Dissolve_gradent_Rotator: 25
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
@@ -195,7 +195,7 @@ Material:
     - _Nosie_speed_U: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 0.1
+    - _Opacity_scale: 0.05
     - _OutLineWidth: 0
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
