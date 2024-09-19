@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_box_03
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: fce660563f57cc14fbbcb65d37a0aac6, type: 3}
   m_ShaderKeywords: _EMISSION _MAIN_SPLIT_R _MASK_SPLIT_R
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -48,11 +48,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c3ec9ab7fd63ea64eb9b7ffe3a81f92e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c3ec9ab7fd63ea64eb9b7ffe3a81f92e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Fresnel_mask_tex:
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 113c6c9c4c05bb7488f6136b4e6d2946, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -116,8 +116,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _2_shadow_width: 0.34
-    - _3_shadow_width: 0.4146928
+    - _2_shadow_width: 0.22
+    - _3_shadow_width: 0.38
     - _AddBlend: 10
     - _BumpScale: 1
     - _Coloe_desatruate: 0
@@ -144,18 +144,18 @@ Material:
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
     - _Edge_black_scale: 1.31
-    - _Emission_scale: 0
+    - _Emission_scale: 2.22
     - _Emission_speed_U: 0
     - _Emission_speed_V: 0
     - _FixedPower1: 0.5
-    - _Fresnel_Switch: 0
+    - _Fresnel_Switch: 1
     - _Fresnel_mask_speed_U: 0
     - _Fresnel_mask_speed_V: 0
     - _Fresnel_one_minus: 0
-    - _Fresnel_width: 10
+    - _Fresnel_width: 2
     - _Fresnelpower: 0.7
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.82
     - _GlossyReflections: 1
     - _Gradent_Rotator: 0
     - _Gradent_speed_U: 0
@@ -196,7 +196,7 @@ Material:
     - _OcclusionStrength: 1
     - _Opacity_power: 1
     - _Opacity_scale: 1
-    - _OutLineWidth: 0
+    - _OutLineWidth: 0.012
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -221,15 +221,15 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 0.2830189, g: 0.24964403, b: 0.24964403, a: 1}
-    - _Color1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0.12997983, g: 0, b: 0.34901962, a: 0}
     - _Color_tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 16.188236, g: 13.301961, b: 23.968628, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 0.11812679, g: 0, b: 0.2830189, a: 1}
-    - _Emission_color: {r: 1, g: 1, b: 1, a: 1}
-    - _Fresnel_color: {r: 0.5880065, g: 0.4481132, b: 1, a: 0}
+    - _EmissionColor: {r: 8.226477, g: 2.1398351, b: 12.125731, a: 1}
+    - _Emission_color: {r: 4, g: 0.16981125, b: 0.16981125, a: 1}
+    - _Fresnel_color: {r: 1.2332664, g: 0.35849047, b: 4, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}

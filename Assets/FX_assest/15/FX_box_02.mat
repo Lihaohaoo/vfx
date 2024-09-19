@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_box_02
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_A _MASK_SPLIT_R
+  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 2800000, guid: e7fc3c0edcf25524f8bf046d40cb34e9, type: 3}
+        m_Texture: {fileID: 2800000, guid: feb67c9bbcf54e342813a6c974d64a1d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
-        m_Texture: {fileID: 2800000, guid: edabaac086d18aa46a5d7b1d0a908b1f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -131,7 +131,7 @@ Material:
     - _Depth_fade: 0
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
-    - _Dissolve: 0
+    - _Dissolve: -0.1
     - _Dissolve_Rotator: 25
     - _Dissolve_gradent_Rotator: 25
     - _Dissolve_offset_scale: 0
@@ -162,7 +162,7 @@ Material:
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
-    - _Main_Split: 3
+    - _Main_Split: 0
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
@@ -205,7 +205,7 @@ Material:
     - _Use_Depth_fade: 0
     - _Use_Screen_emissive: 0
     - _Use_base_color: 1
-    - _Use_dissolve_gradent: 1
+    - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 1
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
