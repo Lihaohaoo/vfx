@@ -67,8 +67,8 @@ Material:
     - _AddBlend: 1
     - _Cull_Mode: 0
     - _Custom: 0
-    - _Depth: 8
-    - _Depth_fade: 0
+    - _Depth: 2
+    - _Depth_fade: 0.2
     - _Desatruate: 0
     - _Dissolve: 0
     - _Dissolve_Rotator: 0
@@ -119,7 +119,7 @@ Material:
     - _Nosie_dissolve: 0
     - _Opacity_power: 1
     - _Opacity_scale: 2
-    - _Use_Depth_fade: 0
+    - _Use_Depth_fade: 1
     - _Use_base_color: 0
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0

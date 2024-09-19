@@ -144,7 +144,7 @@ Material:
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
     - _Edge_black_scale: 1.31
-    - _Emission_scale: 2.22
+    - _Emission_scale: 2.2
     - _Emission_speed_U: 0
     - _Emission_speed_V: 0
     - _FixedPower1: 0.5
@@ -152,7 +152,7 @@ Material:
     - _Fresnel_mask_speed_U: 0
     - _Fresnel_mask_speed_V: 0
     - _Fresnel_one_minus: 0
-    - _Fresnel_width: 2
+    - _Fresnel_width: 5
     - _Fresnelpower: 0.7
     - _GlossMapScale: 1
     - _Glossiness: 0.82
@@ -221,15 +221,15 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 0.12997983, g: 0, b: 0.34901962, a: 0}
+    - _Color0: {r: 0.692082, g: 0.63234246, b: 0.9245283, a: 1}
+    - _Color1: {r: 0.14953232, g: 0, b: 0.38679248, a: 0}
     - _Color_tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 16.188236, g: 13.301961, b: 23.968628, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 8.226477, g: 2.1398351, b: 12.125731, a: 1}
     - _Emission_color: {r: 4, g: 0.16981125, b: 0.16981125, a: 1}
-    - _Fresnel_color: {r: 1.2332664, g: 0.35849047, b: 4, a: 0}
+    - _Fresnel_color: {r: 1.7461295, g: 0.6297538, b: 5.3403134, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
