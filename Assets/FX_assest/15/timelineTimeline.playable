@@ -2145,7 +2145,7 @@ MonoBehaviour:
   particleRandomSeed: 2758
   updateDirector: 1
   updateITimeControl: 1
-  searchHierarchy: 0
+  searchHierarchy: 1
   active: 1
   postPlayback: 2
 --- !u!114 &3206124043979719246
