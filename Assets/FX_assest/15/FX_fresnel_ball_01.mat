@@ -124,7 +124,7 @@ Material:
     - _Edge_black_scale: 0
     - _FixedPower1: 0.5
     - _Fresnel_one_minus: 0
-    - _Fresnelpower: 0.5
+    - _Fresnelpower: 0.75
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
