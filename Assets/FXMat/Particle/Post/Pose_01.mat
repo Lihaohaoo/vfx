@@ -114,9 +114,9 @@ Material:
     - _TexRotator: 0.075
     - _UVSec: 0
     - _VignettePower: 1.5
-    - _VignettePowerK: 1
+    - _VignettePowerK: 1.36
     - _VignetteScale: 1.5
-    - _VignetteScaleK: 0.57
+    - _VignetteScaleK: 0.2
     - _ZWrite: 1
     - _centerU: 0.5
     - _centerV: 0.5
