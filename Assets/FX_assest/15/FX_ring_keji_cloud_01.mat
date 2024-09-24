@@ -137,7 +137,7 @@ Material:
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
-    - _Main_speed_U: 0.25
+    - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
     - _Main_tex_radial: 0
