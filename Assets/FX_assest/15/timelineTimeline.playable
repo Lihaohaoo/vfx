@@ -8837,7 +8837,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: FX_box_body/FX_box _main/FX_box_01
+    path: 
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8847,17 +8847,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: FX_box_body/FX_box _main/FX_box_01
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: FX_box_body/FX_box _main/FX_box_01
+    path: 
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8876,8 +8866,18 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: FX_box_body/FX_box _main/FX_box_01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: 
+    path: FX_box_body/FX_box _main/FX_box_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8887,7 +8887,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: 
+    path: FX_box_body/FX_box _main/FX_box_01
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
