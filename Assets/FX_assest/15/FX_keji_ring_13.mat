@@ -163,7 +163,7 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
-    - _Opacity_power: 2
+    - _Opacity_power: 1.5
     - _Opacity_scale: 2
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
