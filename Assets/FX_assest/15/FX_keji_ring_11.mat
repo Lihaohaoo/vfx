@@ -141,7 +141,7 @@ Material:
     - _Main_speed_V: 0
     - _Main_tex_clamp: 1
     - _Main_tex_radial: 1
-    - _Mask_Rotator: 0
+    - _Mask_Rotator: 90
     - _Mask_Split: 0
     - _Mask_UV: 0
     - _Mask_offset_scale: 0
@@ -199,6 +199,6 @@ Material:
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0.05}
     - _Main_color: {r: 8, g: 8, b: 8, a: 1}
     - _Main_control: {r: 5, g: 5, b: 1, a: 0.5}
-    - _Mask_Tex: {r: 5, g: 1, b: 0, a: 0}
+    - _Mask_Tex: {r: 2, g: 5, b: 0, a: 0}
     - _Noise_Tex: {r: 5, g: 0, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}

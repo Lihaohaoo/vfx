@@ -94,7 +94,7 @@ Material:
     - _LineUVScale: 0
     - _LineUVScaleK: 0
     - _LogoAR: 0
-    - _LogoAlpha: 0.041
+    - _LogoAlpha: 0
     - _MainAlpha: 1
     - _MainAlphaK: 1
     - _Metallic: 0
