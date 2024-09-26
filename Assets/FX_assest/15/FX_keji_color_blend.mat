@@ -102,7 +102,7 @@ Material:
     m_Floats:
     - _AddBlend: 10
     - _BumpScale: 1
-    - _Cull_Mode: 1
+    - _Cull_Mode: 0
     - _Custom: 0
     - _Cutoff: 0.5
     - _Depth: 2
