@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 0bdb269086665f24cb305872232ce983, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3a53c3dddade9de4d88ddd1da2a90a7d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -132,13 +132,13 @@ Material:
     - _Gradent_speed_U: 0
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
-    - _Main_Rotator: 0
+    - _Main_Rotator: 180
     - _Main_Split: 0
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
-    - _Main_speed_V: -1.5
+    - _Main_speed_V: 2
     - _Main_tex_clamp: 0
     - _Main_tex_radial: 1
     - _Mask_Rotator: 0
@@ -155,7 +155,7 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_UV: 0
     - _Noise_gradent: 0
-    - _Noise_scale: 0.1
+    - _Noise_scale: 0
     - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: 0.2
@@ -196,9 +196,9 @@ Material:
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Tex: {r: 3, g: 2, b: 0, a: 0}
-    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_control: {r: 5, g: 7, b: 1, a: 0.5}
+    - _Main_Tex: {r: 1, g: 2, b: 0, a: 0}
+    - _Main_color: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 2, g: 0.5, b: 0, a: 0}
     - _Noise_Tex: {r: 5, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
