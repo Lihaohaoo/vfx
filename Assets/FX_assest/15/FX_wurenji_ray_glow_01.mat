@@ -68,7 +68,7 @@ Material:
     - _Cull_Mode: 0
     - _Custom: 0
     - _Depth: 2
-    - _Depth_fade: 0.2
+    - _Depth_fade: 1
     - _Desatruate: 0
     - _Dissolve: 0
     - _Dissolve_Rotator: 0
