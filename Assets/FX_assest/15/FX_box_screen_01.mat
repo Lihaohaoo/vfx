@@ -195,10 +195,10 @@ Material:
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0.109803915, g: 0, b: 0.5, a: 0}
-    - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Color_1: {r: 0.7211118, g: 0.4575472, b: 1, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 8.47419, g: 8.47419, b: 8.47419, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_control: {r: 3.5, g: 30, b: 1, a: 0.5}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}

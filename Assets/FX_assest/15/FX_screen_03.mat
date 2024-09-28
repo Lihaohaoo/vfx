@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_screen_03
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_A
+  m_ShaderKeywords: _MAIN_SPLIT_A _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,11 +56,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 695ecff3176cbe64f9a739421e74a653, type: 3}
+        m_Texture: {fileID: 2800000, guid: da54985785493c14b8a4ee37022b4ff5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e7fc3c0edcf25524f8bf046d40cb34e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -102,7 +102,7 @@ Material:
     m_Floats:
     - _AddBlend: 1
     - _BumpScale: 1
-    - _Cull_Mode: 0
+    - _Cull_Mode: 2
     - _Custom: 1
     - _Cutoff: 0.5
     - _Depth: 2
@@ -114,14 +114,14 @@ Material:
     - _Dissolve_gradent_Rotator: 270
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 0.835
+    - _Dissolve_soft: 0
     - _Dissolve_speed_U: 1
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
     - _Dissove_UV: 0
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
-    - _Edge_black_scale: 0.2
+    - _Edge_black_scale: 0
     - _FixedPower1: 0.83
     - _Fresnel_one_minus: 0
     - _Fresnelpower: 1
@@ -132,8 +132,8 @@ Material:
     - _Gradent_speed_U: 0
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
-    - _Main_Rotator: 0
-    - _Main_Split: 0
+    - _Main_Rotator: 90
+    - _Main_Split: 3
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
@@ -142,14 +142,14 @@ Material:
     - _Main_tex_clamp: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
-    - _Mask_Split: 3
+    - _Mask_Split: 0
     - _Mask_UV: 0
     - _Mask_offset_scale: 0
     - _Mask_screen_UV: 0
     - _Mask_speed_U: 0
-    - _Mask_speed_V: 0
+    - _Mask_speed_V: -0.25
     - _Mask_tex_clamp: 0
-    - _Mask_tex_radial: 0
+    - _Mask_tex_radial: 1
     - _Metallic: 0
     - _Mode: 0
     - _Noise_Rotator: 0
@@ -172,7 +172,7 @@ Material:
     - _UVSec: 0
     - _Use_Depth_fade: 0
     - _Use_base_color: 0
-    - _Use_dissolve_gradent: 1
+    - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
@@ -189,7 +189,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_Tex: {r: 0.2, g: 2, b: 0, a: 0}
-    - _Dissolve_color: {r: 3.4247177, g: 1.0943398, b: 8, a: 0}
+    - _Dissolve_color: {r: 10.680627, g: 10.680627, b: 10.680627, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: -0.01}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
@@ -197,8 +197,8 @@ Material:
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 1.4142135, g: 1.4142135, b: 1.4142135, a: 1}
+    - _Main_color: {r: 2.828427, g: 2.828427, b: 2.828427, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Mask_Tex: {r: 5, g: 2, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}

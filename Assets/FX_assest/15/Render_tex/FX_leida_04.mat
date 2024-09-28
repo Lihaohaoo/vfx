@@ -199,6 +199,6 @@ Material:
     - _Main_Tex: {r: 1, g: 1, b: 0, a: -0.01}
     - _Main_color: {r: 2, g: 2, b: 2, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
-    - _Mask_Tex: {r: 80, g: 40, b: 0, a: 0}
+    - _Mask_Tex: {r: 30, g: 10, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}

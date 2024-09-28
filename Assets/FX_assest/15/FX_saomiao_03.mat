@@ -37,6 +37,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Emission_scale: 1
-    - _Ztest_modo: 2
+    - _Ztest_modo: 8
     m_Colors:
     - _Emission_color: {r: 2, g: 2, b: 2, a: 1}
