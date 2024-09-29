@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_box_03
-  m_Shader: {fileID: 4800000, guid: fce660563f57cc14fbbcb65d37a0aac6, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _MAIN_SPLIT_R _MASK_SPLIT_R
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -155,7 +155,7 @@ Material:
     - _Fresnel_width: 4.9
     - _Fresnelpower: 0.7
     - _GlossMapScale: 1
-    - _Glossiness: 0.82
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Gradent_Rotator: 0
     - _Gradent_speed_U: 0
@@ -227,7 +227,7 @@ Material:
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 16.188236, g: 13.301961, b: 23.968628, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 8.226477, g: 2.1398351, b: 12.125731, a: 1}
+    - _EmissionColor: {r: 2.5963178, g: 0.62458587, b: 0.70508724, a: 1}
     - _Emission_color: {r: 5.3403134, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 1.7461295, g: 0.6297538, b: 5.3403134, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
