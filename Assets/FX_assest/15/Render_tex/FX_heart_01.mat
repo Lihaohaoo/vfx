@@ -70,12 +70,12 @@ Material:
     - _Depth: 8
     - _Depth_fade: 0
     - _Desatruate: 0
-    - _Dissolve: 0
+    - _Dissolve: 0.2
     - _Dissolve_Rotator: 0
     - _Dissolve_gradent_Rotator: 0
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 1
+    - _Dissolve_soft: 0.62
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
