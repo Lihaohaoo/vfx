@@ -227,7 +227,7 @@ Material:
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 16.188236, g: 13.301961, b: 23.968628, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 6.1784306, g: 0.9617369, b: 0.9617369, a: 1}
+    - _EmissionColor: {r: 4.824705, g: 1.2061763, b: 1.6663673, a: 1}
     - _Emission_color: {r: 5.3403134, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 1.7461295, g: 0.6297538, b: 5.3403134, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}

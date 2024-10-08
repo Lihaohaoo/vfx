@@ -194,8 +194,8 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Color_0: {r: 0.08434523, g: 0, b: 0.4339623, a: 0}
-    - _Main_Color_1: {r: 0.678054, g: 0.5235849, b: 1, a: 1}
+    - _Main_Color_0: {r: 0, g: 0.05286676, b: 0.122641504, a: 0}
+    - _Main_Color_1: {r: 0.17111982, g: 1.4142135, b: 0.9565911, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
     - _Main_control: {r: 1, g: 5, b: 1, a: 1}

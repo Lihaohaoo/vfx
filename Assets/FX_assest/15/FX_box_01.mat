@@ -195,7 +195,7 @@ Material:
     - _Nosie_speed_U: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 0.4
+    - _Opacity_scale: 0.2
     - _OutLineWidth: 0
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
@@ -229,10 +229,10 @@ Material:
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emission_color: {r: 1, g: 1, b: 1, a: 1}
-    - _Fresnel_color: {r: 4.207065, g: 2.7097666, b: 8.574187, a: 0}
+    - _Fresnel_color: {r: 13.120249, g: 4.022718, b: 12.547679, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Color_0: {r: 0.019195091, g: 0, b: 0.20754719, a: 0}
-    - _Main_Color_1: {r: 0, g: 1, b: 0.43514633, a: 1}
+    - _Main_Color_0: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0}
+    - _Main_Color_1: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 3, g: 1, b: 1, a: 0.52}
