@@ -206,6 +206,8 @@ Material:
     - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 1
+    - _Main_tex_clamp_U: 1
+    - _Main_tex_clamp_V: 1
     - _Main_tex_radial: 0
     - _Mask01Polar: 0
     - _Mask01TexRotating1: 270
