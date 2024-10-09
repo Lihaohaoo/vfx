@@ -140,6 +140,8 @@ Material:
     - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 0
@@ -163,8 +165,8 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
-    - _Opacity_power: 1
-    - _Opacity_scale: 2
+    - _Opacity_power: 0.2
+    - _Opacity_scale: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

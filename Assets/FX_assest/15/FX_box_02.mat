@@ -169,6 +169,8 @@ Material:
     - _Main_speed_U: 0
     - _Main_speed_V: 0.2
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 0
@@ -229,7 +231,7 @@ Material:
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emission_color: {r: 1, g: 1, b: 1, a: 1}
-    - _Fresnel_color: {r: 0.8325571, g: 0.15566039, b: 1, a: 0}
+    - _Fresnel_color: {r: 1.4142135, g: 0.86237484, b: 0.14008719, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
