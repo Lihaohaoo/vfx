@@ -199,7 +199,7 @@ Material:
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 3.776172, g: 3.776172, b: 3.776172, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 0.16509432, g: 1, b: 0.5912577, a: 1}
+    - _Main_color: {r: 0.8301887, g: 0.53423584, b: 0.16838734, a: 1}
     - _Main_control: {r: 1, g: 5, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
