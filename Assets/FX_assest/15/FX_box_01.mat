@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_box_01
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_R
+  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_A
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 2800000, guid: e9bbda5b73782654098c3fd77dec9e02, type: 3}
+        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
@@ -72,7 +72,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 2800000, guid: e7fc3c0edcf25524f8bf046d40cb34e9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 56eae6f1d16e0814bb6ce6641a99336a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -136,7 +136,7 @@ Material:
     - _Dissolve_gradent_Rotator: 25
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 0.98
+    - _Dissolve_soft: 0.481
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
@@ -169,9 +169,11 @@ Material:
     - _Main_speed_U: 0
     - _Main_speed_V: 5
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
-    - _Mask_Split: 0
+    - _Mask_Split: 3
     - _Mask_UV: 0
     - _Mask_offset_scale: 0
     - _Mask_screen_UV: 0
@@ -195,7 +197,7 @@ Material:
     - _Nosie_speed_U: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 0.2
+    - _Opacity_scale: 0.5
     - _OutLineWidth: 0
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
@@ -224,8 +226,8 @@ Material:
     - _Color0: {r: 0.2830189, g: 0.24964403, b: 0.24964403, a: 1}
     - _Color1: {r: 0, g: 0, b: 0, a: 0}
     - _Color_tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Dissolve_Tex: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _Dissolve_color: {r: 33.789234, g: 30.429712, b: 42.722507, a: 0}
+    - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emission_color: {r: 1, g: 1, b: 1, a: 1}
@@ -236,7 +238,7 @@ Material:
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 3, g: 1, b: 1, a: 0.52}
-    - _Mask_Tex: {r: 2, g: 2, b: 0, a: 0}
+    - _Mask_Tex: {r: 50, g: 50, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1.5, b: 0, a: 0}
     - _OutLineColor: {r: 0, g: 0, b: 0, a: 0}
     - _Screen_emissive_color: {r: 0, g: 0, b: 0, a: 0}

@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_keji_ring_22
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_R
+  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_A
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 2800000, guid: e7fc3c0edcf25524f8bf046d40cb34e9, type: 3}
+        m_Texture: {fileID: 2800000, guid: d1ad5d5173e8e1a429c72ef36c26f316, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 2800000, guid: bb6c43e1c10428d4c9b18edaaae03728, type: 3}
+        m_Texture: {fileID: 2800000, guid: 56eae6f1d16e0814bb6ce6641a99336a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -144,7 +144,7 @@ Material:
     - _Main_tex_clamp_V: 1
     - _Main_tex_radial: 1
     - _Mask_Rotator: 0
-    - _Mask_Split: 0
+    - _Mask_Split: 3
     - _Mask_UV: 0
     - _Mask_offset_scale: 0
     - _Mask_screen_UV: 0
@@ -165,7 +165,7 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
-    - _Opacity_power: 1
+    - _Opacity_power: 1.65
     - _Opacity_scale: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
@@ -190,7 +190,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Dissolve_Tex: {r: 5, g: 2, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -201,6 +201,6 @@ Material:
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0.09}
     - _Main_color: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 0.5}
-    - _Mask_Tex: {r: 5, g: 4, b: 0, a: 0}
+    - _Mask_Tex: {r: 150, g: 150, b: 0, a: 0}
     - _Noise_Tex: {r: 5, g: 5, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}

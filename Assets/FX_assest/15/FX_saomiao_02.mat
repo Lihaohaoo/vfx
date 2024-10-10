@@ -140,6 +140,8 @@ Material:
     - _Main_speed_U: 0
     - _Main_speed_V: 1.5
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 270
     - _Mask_Split: 0
@@ -164,7 +166,7 @@ Material:
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
     - _Opacity_power: 1
-    - _Opacity_scale: 1
+    - _Opacity_scale: 5
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -196,7 +198,7 @@ Material:
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Tex: {r: 1, g: 0.5, b: 0, a: 0}
+    - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 23.968628, g: 23.968628, b: 23.968628, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}

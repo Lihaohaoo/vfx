@@ -118,7 +118,7 @@ Material:
     - _Noise_tex_radial: 0
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
-    - _Opacity_power: 1
+    - _Opacity_power: 1.1
     - _Opacity_scale: 1
     - _Use_Depth_fade: 0
     - _Use_base_color: 1
