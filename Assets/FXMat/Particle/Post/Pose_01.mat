@@ -94,7 +94,7 @@ Material:
     - _LineUVScale: 0
     - _LineUVScaleK: 0
     - _LogoAR: 0
-    - _LogoAlpha: 0
+    - _LogoAlpha: 0.05
     - _MainAlpha: 1
     - _MainAlphaK: 1
     - _Metallic: 0
@@ -114,16 +114,16 @@ Material:
     - _TexRotator: 0.075
     - _UVSec: 0
     - _VignettePower: 1.5
-    - _VignettePowerK: 2.03
+    - _VignettePowerK: 2.08
     - _VignetteScale: 1.5
-    - _VignetteScaleK: 1.58
+    - _VignetteScaleK: 0
     - _ZWrite: 1
     - _centerU: 0.5
     - _centerV: 0.5
     - _zhenfu: 0
     - _zhenfuK: 0
     - _zhenpin: 0
-    - _zhenpinK: 1
+    - _zhenpinK: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
