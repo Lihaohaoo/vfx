@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 4af67cbb549f343498f57b215420e252, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4b09f3d8ccd6eba47b97d553c16b35b7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -105,7 +105,7 @@ Material:
     - _Cull_Mode: 2
     - _Custom: 0
     - _Cutoff: 0.5
-    - _Depth: 8
+    - _Depth: 2
     - _Depth_fade: 0
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
@@ -143,6 +143,8 @@ Material:
     - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 3
