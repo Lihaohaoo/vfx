@@ -135,10 +135,10 @@ Material:
     - _Main_Rotator: 0
     - _Main_Split: 0
     - _Main_UV: 1
-    - _Main_offset_scale: -0.45
+    - _Main_offset_scale: -0.2
     - _Main_screen_UV: 0
     - _Main_speed_U: 0
-    - _Main_speed_V: 0.5
+    - _Main_speed_V: 1.5
     - _Main_tex_clamp_U: 0
     - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 1
