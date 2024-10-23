@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_shandian_03
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_A _MASK_SPLIT_R
+  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: c25a839967b7c8a458234d7ca351adba, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0675198994939534eab2f966d5a61f0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -134,7 +134,7 @@ Material:
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
-    - _Main_Split: 3
+    - _Main_Split: 0
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
