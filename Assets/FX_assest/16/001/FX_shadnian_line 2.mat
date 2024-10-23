@@ -156,9 +156,9 @@ Material:
     - _Noise_Rotator: 0
     - _Noise_UV: 0
     - _Noise_gradent: 0
-    - _Noise_scale: 0.07
+    - _Noise_scale: 0.05
     - _Noise_screen_UV: 0
-    - _Noise_speed_U: -2
+    - _Noise_speed_U: -1.5
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
     - _Noisek_offset_scale: 0
@@ -199,7 +199,7 @@ Material:
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 11.984314, g: 11.984314, b: 11.984314, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_control: {r: 1, g: 1.5, b: 1, a: 0.5}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Noise_Tex: {r: 1, g: 0.5, b: 0, a: 0}
+    - _Noise_Tex: {r: 1, g: 0, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
