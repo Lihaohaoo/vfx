@@ -43,7 +43,7 @@ Material:
     - _Emission: 1
     - _Float0: 0
     - _Float1: 0
-    - _Scale: 0.35
+    - _Scale: 2
     - _X_speed_U: 0
     - _X_speed_V: 1
     - _Y_speed_U: 0
