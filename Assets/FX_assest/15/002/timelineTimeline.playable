@@ -700,6 +700,24 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 7.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 8.05
+        value: 0.11914336
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 8.133333
         value: 0
         inSlope: 0
@@ -1054,6 +1072,24 @@ AnimationClip:
       - serializedVersion: 3
         time: 6.75
         value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 7.25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 8.05
+        value: 0.11914336
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -6178,7 +6214,7 @@ MonoBehaviour:
   particleRandomSeed: 1046
   updateDirector: 1
   updateITimeControl: 1
-  searchHierarchy: 0
+  searchHierarchy: 1
   active: 1
   postPlayback: 2
 --- !u!114 &5717723697701053127
