@@ -69,7 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BlurFactor: 0
-    - _BlurFactorK: 0.2986848
+    - _BlurFactorK: 0.29601207
     - _BumpScale: 1
     - _ColorStyle: 1
     - _Cutoff: 0.5
@@ -121,7 +121,7 @@ Material:
     - _centerU: 0.5
     - _centerV: 0.5
     - _zhenfu: 0
-    - _zhenfuK: 0.32333928
+    - _zhenfuK: 0.3208667
     - _zhenpin: 0
     - _zhenpinK: 1
     m_Colors:
