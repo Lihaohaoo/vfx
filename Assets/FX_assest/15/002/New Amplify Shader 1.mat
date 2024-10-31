@@ -52,9 +52,9 @@ Material:
     - _Speed_U: 0
     - _Speed_V: 0
     - _X_speed_U: 0
-    - _X_speed_V: 1
+    - _X_speed_V: 5
     - _Y_speed_U: 0
-    - _Y_speed_V: 1
+    - _Y_speed_V: 5
     - _Z_speed_U: 0
     - _Z_speed_V: 5
     - __dirty: 0
