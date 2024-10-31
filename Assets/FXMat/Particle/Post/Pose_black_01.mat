@@ -69,7 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BlurFactor: 0
-    - _BlurFactorK: 0.29601207
+    - _BlurFactorK: 0.29862913
     - _BumpScale: 1
     - _ColorStyle: 1
     - _Cutoff: 0.5
@@ -92,7 +92,7 @@ Material:
     - _LineTilingU: 0
     - _LineTilingV: 1
     - _LineUVScale: 4
-    - _LineUVScaleK: 0
+    - _LineUVScaleK: 0.0814927
     - _LogoAR: 0
     - _LogoAlpha: 0.147
     - _MainAlpha: 1
@@ -102,7 +102,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RedBlueFactor: 0
-    - _RedBlueFactorK: 0
+    - _RedBlueFactorK: 0.08493907
     - _SmoothnessTextureChannel: 0
     - _Soft: 0.556
     - _SpecularHighlights: 1
@@ -121,7 +121,7 @@ Material:
     - _centerU: 0.5
     - _centerV: 0.5
     - _zhenfu: 0
-    - _zhenfuK: 0.3208667
+    - _zhenfuK: 0.3235866
     - _zhenpin: 0
     - _zhenpinK: 1
     m_Colors:

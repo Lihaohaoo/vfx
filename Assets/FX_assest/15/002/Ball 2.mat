@@ -188,7 +188,7 @@ Material:
     - _Fresnel_width: 3.3
     - _Fresnelpower: 2
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Gradent_Rotator: 0
     - _Gradent_speed_U: 0

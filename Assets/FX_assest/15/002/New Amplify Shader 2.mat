@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Amplify Shader 2
+  m_Shader: {fileID: 4800000, guid: 021fef234e6c3954e997ed154e1d3739, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Main_tex:
+        m_Texture: {fileID: 2800000, guid: 7b767192e968e174a860dd4355d4dc74, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 3dbe7439b639c6847af877fbd191d161, type: 3}
+        m_Scale: {x: -1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _X:
+        m_Texture: {fileID: 2800000, guid: 3454dca00bdaebf429549917eab7f109, type: 3}
+        m_Scale: {x: 1, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _Y:
+        m_Texture: {fileID: 2800000, guid: 0e616e9c69b8b68489dbf83194b0a869, type: 3}
+        m_Scale: {x: 1, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _Z:
+        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
+        m_Scale: {x: 1, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Custom: 0
+    - _Emission: 1
+    - _Float0: 0
+    - _Float1: 0
+    - _Scale: 0.5
+    - _Speed_U: 5
+    - _Speed_V: 0
+    - _X_speed_U: 0
+    - _X_speed_V: 1
+    - _Y_speed_U: 0
+    - _Y_speed_V: 1
+    - _Z_speed_U: 0
+    - _Z_speed_V: 5
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 12.560081, g: 12.560081, b: 12.560081, a: 0}
