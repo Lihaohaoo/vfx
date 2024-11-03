@@ -69,7 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BlurFactor: 0
-    - _BlurFactorK: 0.29819772
+    - _BlurFactorK: 0.29986638
     - _BumpScale: 1
     - _ColorStyle: 1
     - _Cutoff: 0.5
@@ -92,7 +92,7 @@ Material:
     - _LineTilingU: 0
     - _LineTilingV: 1
     - _LineUVScale: 4
-    - _LineUVScaleK: 0.08854514
+    - _LineUVScaleK: 0.011455076
     - _LogoAR: 0
     - _LogoAlpha: 0.147
     - _MainAlpha: 1
@@ -102,7 +102,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RedBlueFactor: 0
-    - _RedBlueFactorK: 0.09228976
+    - _RedBlueFactorK: 0.011939515
     - _SmoothnessTextureChannel: 0
     - _Soft: 0.556
     - _SpecularHighlights: 1
@@ -114,14 +114,14 @@ Material:
     - _TexRotator: 0.075
     - _UVSec: 0
     - _VignettePower: 1.5
-    - _VignettePowerK: 1.3880339
+    - _VignettePowerK: 1.3779086
     - _VignetteScale: 1.5
     - _VignetteScaleK: 1.53
     - _ZWrite: 1
     - _centerU: 0.5
     - _centerV: 0.5
     - _zhenfu: 0
-    - _zhenfuK: 0.32336694
+    - _zhenfuK: 0.32482284
     - _zhenpin: 0
     - _zhenpinK: 1
     m_Colors:

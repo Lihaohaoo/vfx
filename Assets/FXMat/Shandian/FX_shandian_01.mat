@@ -141,6 +141,8 @@ Material:
     - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 0
@@ -158,8 +160,8 @@ Material:
     - _Noise_gradent: 0
     - _Noise_scale: 0.05
     - _Noise_screen_UV: 0
-    - _Noise_speed_U: 0.2
-    - _Noise_speed_V: 0
+    - _Noise_speed_U: 2
+    - _Noise_speed_V: 2
     - _Noise_tex_radial: 0
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 1

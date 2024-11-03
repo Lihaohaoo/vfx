@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-//[ExecuteAlways]
+[ExecuteAlways]
 public class AFX_SkinRandomLight : MonoBehaviour
 {
     [Header("······全身电弧功能········")]

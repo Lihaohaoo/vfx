@@ -178,7 +178,7 @@ Material:
     - _FixedTexRotating2: 221
     - _Fresnel: 0
     - _Fresnel_fanxiang: 0
-    - _Fresnel_one_minus: 0
+    - _Fresnel_one_minus: 1
     - _Fresnelpower: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -268,7 +268,7 @@ Material:
     - _Use_base_color: 1
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
-    - _Use_fresnel_opacity: 0
+    - _Use_fresnel_opacity: 1
     - _Vertex_Rotator: 0
     - _Vertex_UV: 0
     - _Vertex_offset_scale: 0
