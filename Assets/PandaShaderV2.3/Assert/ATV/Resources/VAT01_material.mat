@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 446de4ba36021554a94eb3e445fa294c, type: 3}
   m_ShaderKeywords: _CADDTEXUVT_ON _DISSOLVEAR_ON _DISSOLVEPLUSAR_ON _DISTORTADDTEX_ON
     _DISTORTMASKTEXAR_ON _DISTORTTEXAR_ON _FACE_Y _IFADDTEXCOLOR_ON _IFDISSOLVECOLOR_ON
-    _MAINTEXUVS_NORMAL _MASKALPHARA_ON _MASKPLUSAR_ON _VTOAR_ON _VTOMASKAR_ON
+    _IFVAT_ON _MAINTEXUVS_NORMAL _MASKALPHARA_ON _MASKPLUSAR_ON _VTOAR_ON _VTOMASKAR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -115,9 +115,9 @@ Material:
     - _CenterV: 0.5
     - _Comparison: 8
     - _CubemapScale: 0
-    - _Cullmode: 0
+    - _Cullmode: 2
     - _CustomDistort: 0
-    - _CustomVAT: 1
+    - _CustomVAT: 0
     - _CustomdataDis: 0
     - _CustomdataDisT: 0
     - _CustomdataMainTexUV: 0
@@ -233,7 +233,7 @@ Material:
     - _ToggleSwitch0: 0
     - _VATFrameC1: 0
     - _VATFrameC2: 0
-    - _VATFrameFactor: 0
+    - _VATFrameFactor: 0.68
     - _VATTime: 100
     - _VTOAR: 1
     - _VTOC: 0
@@ -257,7 +257,7 @@ Material:
     - _fnl_sacle: 0.5
     - _qubaohedu: 0
     - _screenVTOon: 0
-    - _softFacotr: 1
+    - _softFacotr: 0
     - _soft_sting: 0
     - _softback: 0
     - _sot_sting_A: 0
@@ -268,7 +268,7 @@ Material:
     - _DIssloveColor: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 0}
     - _Dir: {r: 0, g: 0, b: 0, a: 0}
-    - _MainColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 0.4009434, g: 0.5527434, b: 1, a: 1}
     - _MainTexRefine: {r: 1, g: 1, b: 2, a: 0}
     - _TexCenter: {r: 0, g: 0, b: 0, a: 0}
     - _fnl_color: {r: 1, g: 1, b: 1, a: 0}
