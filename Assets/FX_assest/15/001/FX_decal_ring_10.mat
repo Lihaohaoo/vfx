@@ -119,7 +119,7 @@ Material:
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 1
-    - _Dissove_UV: 0
+    - _Dissove_UV: 1
     - _Dissove_tex_clamp: 0
     - _DstBlend: 0
     - _Edge_black_scale: 0
