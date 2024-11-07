@@ -51,6 +51,7 @@ Material:
     - _Scale: 0
     - _Speed_U: 0
     - _Speed_V: 0
+    - _Vetex_normal_scale: -0.02
     - _X_speed_U: 0
     - _X_speed_V: 0.5
     - _Y_speed_U: 0
