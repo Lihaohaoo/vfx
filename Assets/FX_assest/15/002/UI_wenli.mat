@@ -109,7 +109,7 @@ Material:
     - _Depth_fade: 0
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
-    - _Dissolve: 0.95
+    - _Dissolve: 0.84
     - _Dissolve_Rotator: 0
     - _Dissolve_gradent_Rotator: 0
     - _Dissolve_offset_scale: 0
@@ -189,7 +189,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Dissolve_Tex: {r: 3, g: 0, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 10, g: 0, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
