@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissovle01_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7105edeff6d53ac49bc6dd7ad24c6603, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissovle02_tex:
@@ -98,7 +98,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _Dissolve: 0.25582194
-    - _Dissolve01: 0.25582194
+    - _Dissolve01: 0
     - _Dissolve01_Soft: 0.8
     - _Dissolve02: 0.2558219
     - _Dissolve02_Soft: 0.95
