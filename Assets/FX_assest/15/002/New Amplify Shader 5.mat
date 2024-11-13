@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Vertex_nomal_mask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9f8b230718852dd4c8186a0dd3e6dcc7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _X:
@@ -72,6 +72,7 @@ Material:
     - _Emission: 1
     - _Float0: 0
     - _Float1: 0
+    - _Mask_power: 1
     - _Scale: 0
     - _Speed_U: 0
     - _Speed_V: 0
