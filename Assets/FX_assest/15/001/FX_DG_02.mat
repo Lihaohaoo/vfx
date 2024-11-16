@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 2800000, guid: 3454dca00bdaebf429549917eab7f109, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8111049250060cf4bb321766c9c98e28, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Gradent_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 90750e4fc71a54448a8578c0b3f064f7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -56,11 +56,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 9c2eef1e26a7359458fb2099008aa664, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2dde01448cf029742b0550fa3b7c6ba5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 2800000, guid: 2e9606ebbb0a5904f87d3c20aaa61ca5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 90750e4fc71a54448a8578c0b3f064f7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise_tex:
-        m_Texture: {fileID: 2800000, guid: 3454dca00bdaebf429549917eab7f109, type: 3}
+        m_Texture: {fileID: 2800000, guid: c629942dbfd4ad0438811107b4ca05a1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -100,7 +100,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AddBlend: 1
+    - _AddBlend: 10
     - _BumpScale: 1
     - _Cull_Mode: 0
     - _Custom: 1
@@ -110,11 +110,11 @@ Material:
     - _Desatruate: 0
     - _DetailNormalMapScale: 1
     - _Dissolve: 0
-    - _Dissolve_Rotator: 0
+    - _Dissolve_Rotator: 90
     - _Dissolve_gradent_Rotator: 0
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 0.5
+    - _Dissolve_soft: 1
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
@@ -123,7 +123,7 @@ Material:
     - _DstBlend: 0
     - _Edge_black_scale: 0
     - _FixedPower1: 0.5
-    - _Fresnel_one_minus: 1
+    - _Fresnel_one_minus: 0
     - _Fresnelpower: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -164,7 +164,7 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
-    - _Opacity_power: 1.5
+    - _Opacity_power: 1
     - _Opacity_scale: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
@@ -175,7 +175,7 @@ Material:
     - _Use_base_color: 1
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
-    - _Use_fresnel_opacity: 1
+    - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
     - _Vertex_UV: 0
     - _Vertex_offset_scale: 0
@@ -189,17 +189,17 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Dissolve_Tex: {r: 0.5, g: 2, b: 0, a: -0.25}
+    - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
     - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
+    - _Main_Color_0: {r: 0, g: 0.0013688543, b: 0.009433985, a: 0}
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Tex: {r: 2, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 9.734288, g: 9.734288, b: 9.734288, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Tex: {r: 1.2, g: 1, b: 0, a: 0}
+    - _Main_color: {r: 0, g: 0.6693058, b: 4, a: 1}
+    - _Main_control: {r: 4, g: 5, b: 0.5, a: 0.5}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
