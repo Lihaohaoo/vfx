@@ -69,7 +69,7 @@ Material:
     - _Float0: 0
     - _Float1: 0
     - _Mask_power: 1
-    - _Scale: 0.5
+    - _Scale: 0.4
     - _Speed_U: 0
     - _Speed_V: 0
     - _Vetex_normal_scale: 0
@@ -78,7 +78,7 @@ Material:
     - _Y_speed_U: 0
     - _Y_speed_V: 1
     - _Z_speed_U: 0
-    - _Z_speed_V: 1
+    - _Z_speed_V: 2
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 12.560081, g: 12.560081, b: 12.560081, a: 0}

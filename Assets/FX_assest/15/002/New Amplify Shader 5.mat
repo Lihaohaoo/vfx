@@ -78,11 +78,11 @@ Material:
     - _Speed_V: 0
     - _Vetex_normal_scale: 0
     - _X_speed_U: 0
-    - _X_speed_V: 0.1
+    - _X_speed_V: 5
     - _Y_speed_U: 0
-    - _Y_speed_V: 0.7
+    - _Y_speed_V: 4
     - _Z_speed_U: 0
-    - _Z_speed_V: 1
+    - _Z_speed_V: 4
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 7.0465865, g: 7.0465865, b: 7.0465865, a: 0}
