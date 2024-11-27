@@ -69,7 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BlurFactor: 0
-    - _BlurFactorK: 0.28243223
+    - _BlurFactorK: 0.8963026
     - _BumpScale: 1
     - _ColorStyle: 1
     - _Cutoff: 0.5
@@ -114,14 +114,14 @@ Material:
     - _TexRotator: 0.075
     - _UVSec: 0
     - _VignettePower: 1.5
-    - _VignettePowerK: 1.3610386
+    - _VignettePowerK: 1.4000845
     - _VignetteScale: 1.5
     - _VignetteScaleK: 0
     - _ZWrite: 1
     - _centerU: 0.5
     - _centerV: 0.5
     - _zhenfu: 0
-    - _zhenfuK: 0.30597898
+    - _zhenfuK: 0.41223076
     - _zhenpin: 0
     - _zhenpinK: 1
     m_Colors:

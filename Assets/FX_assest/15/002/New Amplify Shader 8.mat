@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Amplify Shader 4
+  m_Name: New Amplify Shader 8
   m_Shader: {fileID: 4800000, guid: 021fef234e6c3954e997ed154e1d3739, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
@@ -20,32 +20,32 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Dissolve:
-        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
-        m_Scale: {x: 0.5, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: 3454dca00bdaebf429549917eab7f109, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0.41, y: 0}
     - _Main_tex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
-        m_Texture: {fileID: 2800000, guid: 0d4b762968af53c489b508c64cc1099c, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 2e9606ebbb0a5904f87d3c20aaa61ca5, type: 3}
+        m_Scale: {x: -1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Vertex_nomal_mask:
-        m_Texture: {fileID: 2800000, guid: 9f8b230718852dd4c8186a0dd3e6dcc7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _X:
-        m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
-        m_Scale: {x: 0.5, y: 0}
+        m_Texture: {fileID: 2800000, guid: 3454dca00bdaebf429549917eab7f109, type: 3}
+        m_Scale: {x: 1, y: 0}
         m_Offset: {x: 0, y: 0}
     - _Y:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1.5, y: 0}
+        m_Texture: {fileID: 2800000, guid: 0e616e9c69b8b68489dbf83194b0a869, type: 3}
+        m_Scale: {x: 1, y: 0}
         m_Offset: {x: 0, y: 0}
     - _Z:
         m_Texture: {fileID: 2800000, guid: ad18c0a40da84554c8ef66c4818f1ce3, type: 3}
-        m_Scale: {x: 1.5, y: 0}
+        m_Scale: {x: 1, y: 0}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -61,7 +61,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Custom: 1
-    - _Dissolve_scale: 0
+    - _Dissolve_scale: 0.5
     - _Dissolve_soft: 1
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
@@ -69,16 +69,16 @@ Material:
     - _Float0: 0
     - _Float1: 0
     - _Mask_power: 1
-    - _Scale: 0
+    - _Scale: 0.4
     - _Speed_U: 0
     - _Speed_V: 0
     - _Vetex_normal_scale: 0
     - _X_speed_U: 0
-    - _X_speed_V: 0.1
+    - _X_speed_V: 1
     - _Y_speed_U: 0
     - _Y_speed_V: 1
     - _Z_speed_U: 0
-    - _Z_speed_V: 1
+    - _Z_speed_V: 2
     - __dirty: 0
     m_Colors:
-    - _Color0: {r: 7.0465865, g: 7.0465865, b: 7.0465865, a: 0}
+    - _Color0: {r: 12.560081, g: 12.560081, b: 12.560081, a: 0}
