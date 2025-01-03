@@ -120,7 +120,7 @@ Material:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_color: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
-    - _Main_color: {r: 0.99553853, g: 0.97751975, b: 1.1486983, a: 1}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 2, g: 2, b: 1.1, a: 0.9}
     - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}

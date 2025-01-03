@@ -172,7 +172,7 @@ Material:
     - _Normal_speed_V: 0
     - _Nosie_speed_U: 0
     - _OcclusionStrength: 1
-    - _OutLineWidth: 0.0001
+    - _OutLineWidth: 0.0005
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -204,7 +204,7 @@ Material:
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
     - _Matcap_add_color: {r: 1, g: 0.5801887, b: 0.6166832, a: 1}
-    - _OutLineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutLineColor: {r: 1.858891, g: 0.93600005, b: 3.9999995, a: 1}
     - _Screen_emissive_color: {r: 0, g: 0, b: 0, a: 0}
     - _Screen_emissive_control: {r: 0, g: 0, b: 0, a: 0}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}

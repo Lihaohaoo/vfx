@@ -37,7 +37,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
         m_Texture: {fileID: 2800000, guid: 8f6c31a4aaedea044bdc983237422025, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matecap:
         m_Texture: {fileID: 2800000, guid: bc6ec9b6bb154ef41a504c1a0141c0d9, type: 3}
@@ -78,7 +78,7 @@ Material:
     m_Floats:
     - _Cull_modo: 0
     - _Depth_fade: 0
-    - _Desatruate: 0.5
+    - _Desatruate: 0.55
     - _Dissolve: 0
     - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
@@ -120,9 +120,9 @@ Material:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_color: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel_color: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_color: {r: 1.4640857, g: 1.4640857, b: 1.4640857, a: 1}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mat_cap_control1: {r: 1, g: 1, b: 1, a: 1}
-    - _Matcap_add_color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+    - _Matcap_add_color: {r: 0.11196155, g: 0.45106804, b: 0.6415094, a: 1}
     - _Top_light_color: {r: 1, g: 1, b: 1, a: 1}
