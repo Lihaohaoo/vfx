@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Gradent_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2e9606ebbb0a5904f87d3c20aaa61ca5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientTex:
@@ -69,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: dca3d041dc3b2204893245c324b22b62, type: 3}
+        m_Texture: {fileID: 2800000, guid: cd88907701b5f6c4f962ab9c097bd816, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex1:
@@ -157,11 +157,14 @@ Material:
     - _Dissolve_V: 0
     - _Dissolve_edge: 0
     - _Dissolve_gradent_Rotator: 201.52
+    - _Dissolve_offset_scale: 0
+    - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 0.844
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
     - _Dissolve_tongdao: 0
+    - _Dissove_UV: 0
     - _Dissove_tex_clamp: 0
     - _Dst: 1
     - _DstBlend: 0
@@ -197,11 +200,15 @@ Material:
     - _MainTex_V: 0
     - _Main_Rotator: 0
     - _Main_Split: 3
+    - _Main_UV: 0
     - _Main_color_power: 0
+    - _Main_offset_scale: 0
     - _Main_screen_UV: 0
-    - _Main_speed_U: 0.2
+    - _Main_speed_U: 0.5
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
     - _Mask01Polar: 0
     - _Mask01TexRotating1: 270
@@ -211,6 +218,9 @@ Material:
     - _MaskTex_V2: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 3
+    - _Mask_UV: 0
+    - _Mask_offset_scale: 0
+    - _Mask_screen_UV: 0
     - _Mask_speed_U: 0
     - _Mask_speed_V: 0
     - _Mask_tex_clamp: 1
@@ -228,11 +238,14 @@ Material:
     - _NoiseTex_U1: 0
     - _NoiseTex_V1: 0
     - _Noise_Rotator: 0
+    - _Noise_UV: 0
     - _Noise_gradent: 0
     - _Noise_scale: 0.2
+    - _Noise_screen_UV: 0
     - _Noise_speed_U: 0
     - _Noise_speed_V: 0
     - _Noise_tex_radial: 0
+    - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
     - _Opacity: 1
@@ -259,11 +272,15 @@ Material:
     - _Use_fresnel_opacity: 0
     - _Use_main_power: 0
     - _Vertex_Rotator: 0
+    - _Vertex_UV: 0
+    - _Vertex_offset_scale: 0
     - _Vertex_scale: 0.3
+    - _Vertex_screen_UV: 0
     - _Vertex_speed_U: -0.5
     - _Vertex_speed_V: 0
     - _Vertex_tex_radial: 0
     - _ZWrite: 1
+    - _Z_write_mode: 0
     - __dirty: 0
     - _soft_mode_edge: 1
     m_Colors:
@@ -278,9 +295,11 @@ Material:
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _GradientTilingOffset2: {r: 1, g: 1, b: 0, a: 0}
+    - _Main_Color_0: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0}
+    - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
-    - _Main_color: {r: 1.8330017, g: 2.4221427, b: 3.1933827, a: 1}
-    - _Main_control: {r: 5.19, g: 1, b: 1.47, a: 0.6}
+    - _Main_color: {r: 1.7381212, g: 1.7381212, b: 1.7381212, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask01TilingOffset1: {r: 1, g: 1, b: 0, a: 0}
     - _Mask_Tex: {r: 1.4, g: 1, b: 0, a: 0}
     - _MianTilingOffset: {r: -1, g: 1, b: 0, a: 0}

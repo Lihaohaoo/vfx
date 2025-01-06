@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2e9606ebbb0a5904f87d3c20aaa61ca5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Frednel_mask:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _Noise_tex:
-        m_Texture: {fileID: 2800000, guid: d1ad5d5173e8e1a429c72ef36c26f316, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -111,7 +111,7 @@ Material:
     - _Dissolve_Rotator: 0
     - _Dissolve_edge: 0
     - _Dissolve_fanxiang: 1
-    - _Dissolve_gradent_Rotator: 0
+    - _Dissolve_gradent_Rotator: 180
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 0.876
@@ -123,7 +123,7 @@ Material:
     - _Dissove_tex_clamp: 0
     - _Edge_black_scale: 0
     - _Emission_scale: 1.1
-    - _FixedPower1: 0
+    - _FixedPower1: 0.381
     - _Fresnel_Speed_U: 0
     - _Fresnel_Speed_V: 0
     - _Fresnel_one_minus: 0
@@ -178,7 +178,7 @@ Material:
     - _Top_linght_scale: 0
     - _Use_Depth_fade: 0
     - _Use_base_color: 1
-    - _Use_dissolve_gradent: 0
+    - _Use_dissolve_gradent: 1
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0
@@ -196,9 +196,9 @@ Material:
     - _vertex_scale: 0
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
-    - _Dissolve_Tex: {r: 0.75, g: 2, b: 0, a: 0}
+    - _Dissolve_Tex: {r: 1, g: 3, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 1}
-    - _Dissolve_gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Dissolve_gradent_Tex: {r: 2, g: 2, b: 0, a: 0}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
