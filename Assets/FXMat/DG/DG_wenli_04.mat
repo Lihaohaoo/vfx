@@ -101,7 +101,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Vertex_tex:
-        m_Texture: {fileID: 2800000, guid: 0e616e9c69b8b68489dbf83194b0a869, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _tex4coord2:
@@ -184,7 +184,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Gradent_Rotator: 0
-    - _Gradent_speed_U: 0
+    - _Gradent_speed_U: -0.5
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
     - _GradientPolar1: 0
@@ -293,7 +293,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FixedTexTilingOffset1: {r: 1, g: 1, b: 0, a: 0}
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
-    - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
+    - _Gradent_Tex: {r: 3, g: 1, b: 0, a: 0}
     - _GradientTilingOffset2: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 1, g: 1, b: 1, a: 0}
     - _Main_Color_1: {r: 2, g: 2, b: 2, a: 1}
