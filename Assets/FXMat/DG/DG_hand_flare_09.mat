@@ -120,7 +120,7 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _Opacity_power: 1
-    - _Opacity_scale: 0.25
+    - _Opacity_scale: 0.6
     - _Use_Depth_fade: 0
     - _Use_base_color: 0
     - _Use_dissolve_gradent: 0
