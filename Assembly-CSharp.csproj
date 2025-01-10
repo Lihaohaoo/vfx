@@ -53,19 +53,28 @@
     <UnityVersion>2019.4.40f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="F:\VS\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FX_assest\00_no\trail_main.cs" />
+    <Compile Include="Assets\FX_assest\15\AFX_SkinRandomLight.cs" />
+    <Compile Include="Assets\Fx_tex\trail_test.cs" />
+    <Compile Include="Assets\PandaShaderV2.3\Assert\ATV\PandaATV.cs" />
     <Compile Include="Assets\shader\Ref_Land\PlanarReflection.cs" />
+    <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\BulletTimePlayableAsset.cs" />
     <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\PandaDrawer.cs" />
     <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\PandaPostGUI_V1.0.cs" />
     <Compile Include="Assets\shader\panda\PandaPost1.0\assert\Scripts\PandaPostProcess.cs" />
+    <Compile Include="Assets\熊猫超级shaderV2.3\PandaShaderV2.3\Assert\Script\PandavfxGUI23.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\shader\Shader\FX_flower_vertexOffset.shader" />
     <None Include="Assets\shader\Ref_Land\KawaseBlur.shader" />
+    <None Include="Assets\shader\Shader\shandian_vertex.shader" />
     <None Include="Assets\shader\Ref_Land\ReflectionTex.shader" />
     <None Include="Assets\shader\Shader\FX_Sence.shader" />
+    <None Include="Assets\Fx_tex\trail_test.shader" />
+    <None Include="Assets\熊猫超级shaderV2.3\PandaShaderV2.3\Pandavfx_v2.3.shader" />
     <None Include="Assets\VFXCore.shader" />
     <None Include="Assets\shader\Shader\KawaseBlur.shader" />
     <None Include="Assets\shader\Shader\FX_Water.shader" />
@@ -267,6 +276,12 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity 2019.4.40f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity 2019.4.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity 2019.4.40f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity 2019.4.40f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -616,8 +631,14 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Alembic.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
@@ -627,6 +648,9 @@
     </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -646,8 +670,14 @@
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Alembic.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
