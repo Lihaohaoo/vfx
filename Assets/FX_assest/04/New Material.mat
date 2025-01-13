@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9bf4c835be105e649ad4f47468998957, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -102,6 +102,7 @@ Material:
     m_Floats:
     - _AddBlend: 10
     - _BumpScale: 1
+    - _Clamp: 1
     - _Cull_Mode: 2
     - _Custom: 0
     - _Cutoff: 0.5
@@ -140,8 +141,10 @@ Material:
     - _Main_speed_U: 0
     - _Main_speed_V: -0.5
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
-    - _Mask_Rotator: 0
+    - _Mask_Rotator: 180
     - _Mask_Split: 0
     - _Mask_UV: 0
     - _Mask_offset_scale: 0
@@ -163,6 +166,7 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
+    - _Opacity_dissolve_part_trail: 0
     - _Opacity_power: 1
     - _Opacity_scale: 1
     - _Parallax: 0.02
@@ -186,6 +190,7 @@ Material:
     - _ZWrite: 1
     - _Z_write_mode: 0
     - __dirty: 0
+    - _offset_U: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}

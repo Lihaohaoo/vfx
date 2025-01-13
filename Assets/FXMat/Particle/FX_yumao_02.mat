@@ -102,6 +102,7 @@ Material:
     m_Floats:
     - _AddBlend: 10
     - _BumpScale: 1
+    - _Clamp: 1
     - _Cull_Mode: 0
     - _Custom: 0
     - _Cutoff: 0.5
@@ -166,8 +167,9 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
-    - _Opacity_power: 1
-    - _Opacity_scale: 1.5
+    - _Opacity_dissolve_part_trail: 0
+    - _Opacity_power: 3
+    - _Opacity_scale: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -189,6 +191,7 @@ Material:
     - _ZWrite: 1
     - _Z_write_mode: 0
     - __dirty: 0
+    - _offset_U: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
@@ -201,7 +204,7 @@ Material:
     - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
     - _Main_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_color: {r: 1.0717734, g: 1.0717734, b: 1.0717734, a: 1}
-    - _Main_control: {r: 1, g: 1, b: 1.2, a: 1}
+    - _Main_control: {r: 1, g: 1, b: 2, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Noise_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Vertex_Tex: {r: 1, g: 1, b: 0, a: 0}
