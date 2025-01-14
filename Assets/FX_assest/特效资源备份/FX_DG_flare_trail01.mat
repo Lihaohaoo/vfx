@@ -102,6 +102,7 @@ Material:
     m_Floats:
     - _AddBlend: 1
     - _BumpScale: 1
+    - _Clamp: 1
     - _Cull_Mode: 0
     - _Custom: 1
     - _Cutoff: 0.5
@@ -165,6 +166,7 @@ Material:
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
+    - _Opacity_dissolve_part_trail: 0
     - _Opacity_power: 1.5
     - _Opacity_scale: 1.5
     - _Parallax: 0.02
@@ -188,6 +190,7 @@ Material:
     - _ZWrite: 1
     - _Z_write_mode: 0
     - __dirty: 0
+    - _offset_U: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}

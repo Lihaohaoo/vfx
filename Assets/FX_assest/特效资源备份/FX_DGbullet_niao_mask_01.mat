@@ -124,7 +124,7 @@ Material:
     - _Opacity_scale: 1
     - _Use_Depth_fade: 0
     - _Use_base_color: 0
-    - _Use_dissolve_gradent: 1
+    - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
     - _Vertex_Rotator: 0

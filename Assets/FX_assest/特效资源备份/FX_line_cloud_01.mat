@@ -136,6 +136,7 @@ Material:
     - _AddBlend: 10
     - _AntiDepthFade: 0
     - _BumpScale: 1
+    - _Clamp: 1
     - _CullMode: 0
     - _Cull_Mode: 0
     - _Custom: 1
@@ -203,7 +204,7 @@ Material:
     - _Main_UV: 1
     - _Main_offset_scale: 0.39
     - _Main_screen_UV: 0
-    - _Main_speed_U: 2
+    - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
     - _Main_tex_clamp_U: 0
@@ -249,6 +250,7 @@ Material:
     - _OcclusionStrength: 1
     - _Opacity: 1
     - _OpacityPower: 1
+    - _Opacity_dissolve_part_trail: 0
     - _Opacity_power: 1
     - _Opacity_scale: 1.5
     - _OpenFixed: 1
@@ -280,6 +282,7 @@ Material:
     - _ZWrite: 1
     - _Z_write_mode: 0
     - __dirty: 0
+    - _offset_U: 0
     - _soft_mode_edge: 1
     m_Colors:
     - _Color: {r: 8, g: 8, b: 8, a: 1}

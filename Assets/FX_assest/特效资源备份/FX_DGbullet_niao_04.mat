@@ -117,7 +117,7 @@ Material:
     - _Dissolve_screen_UV: 0
     - _Dissolve_soft: 0.5
     - _Dissolve_speed_U: 0
-    - _Dissolve_speed_V: -0.5
+    - _Dissolve_speed_V: 0.5
     - _Dissolve_tex_radial: 0
     - _Dissove_UV: 0
     - _Dissove_tex_clamp: 0
