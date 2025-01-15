@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: 6e8c1bf7550a01344a481fbe3085bcea, type: 3}
+        m_Texture: {fileID: 2800000, guid: 04eaf9e699eff6c4bb0c761d6a7cbf68, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -130,6 +130,7 @@ Material:
     m_Floats:
     - _AddBlend: 1
     - _BumpScale: 1
+    - _Clamp: 1
     - _Cull_Mode: 0
     - _Cull_modo: 0
     - _Custom: 0
@@ -176,9 +177,11 @@ Material:
     - _Main_offset_scale: 0
     - _Main_scale: 1
     - _Main_screen_UV: 0
-    - _Main_speed_U: 5
+    - _Main_speed_U: 0
     - _Main_speed_V: 0
     - _Main_tex_clamp: 0
+    - _Main_tex_clamp_U: 0
+    - _Main_tex_clamp_V: 0
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 0
@@ -206,6 +209,7 @@ Material:
     - _Normal_speed_V: 0
     - _Nosie_dissolve: 0
     - _OcclusionStrength: 1
+    - _Opacity_dissolve_part_trail: 0
     - _Opacity_power: 3
     - _Opacity_scale: 2
     - _Parallax: 0.02
@@ -235,6 +239,7 @@ Material:
     - __dirty: 0
     - _custom: 0
     - _depth: 0
+    - _offset_U: 0
     - _scale_noise: 0
     - _vertex_scale: 0
     m_Colors:
