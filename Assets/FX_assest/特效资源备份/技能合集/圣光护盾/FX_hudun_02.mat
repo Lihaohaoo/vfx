@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_hudun_02
   m_Shader: {fileID: 4800000, guid: bf68fcacfa6f94d46964568728aa949a, type: 3}
-  m_ShaderKeywords: _MAIN_SPLIT_R _MASK_SPLIT_R
+  m_ShaderKeywords: _MAIN_SPLIT_A _MASK_SPLIT_R
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolove_tex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c629942dbfd4ad0438811107b4ca05a1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissolvegradent:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_tex:
-        m_Texture: {fileID: 2800000, guid: c629942dbfd4ad0438811107b4ca05a1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3f69dde8af6bb3d478c4a3431dd89085, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_tex:
@@ -100,11 +100,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AddBlend: 1
+    - _AddBlend: 10
     - _BumpScale: 1
     - _Clamp: 1
     - _Cull_Mode: 0
-    - _Custom: 0
+    - _Custom: 1
     - _Cutoff: 0.5
     - _Depth: 2
     - _Depth_fade: 0
@@ -115,7 +115,7 @@ Material:
     - _Dissolve_gradent_Rotator: 0
     - _Dissolve_offset_scale: 0
     - _Dissolve_screen_UV: 0
-    - _Dissolve_soft: 0.5
+    - _Dissolve_soft: 0.68
     - _Dissolve_speed_U: 0
     - _Dissolve_speed_V: 0
     - _Dissolve_tex_radial: 0
@@ -134,14 +134,14 @@ Material:
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
     - _Main_Rotator: 0
-    - _Main_Split: 0
+    - _Main_Split: 3
     - _Main_UV: 0
     - _Main_offset_scale: 0
     - _Main_screen_UV: 0
-    - _Main_speed_U: 0
-    - _Main_speed_V: 0.2
+    - _Main_speed_U: 0.5
+    - _Main_speed_V: 0
     - _Main_tex_clamp_U: 0
-    - _Main_tex_clamp_V: 0
+    - _Main_tex_clamp_V: 1
     - _Main_tex_radial: 0
     - _Mask_Rotator: 0
     - _Mask_Split: 0
@@ -174,7 +174,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _Use_Depth_fade: 0
-    - _Use_base_color: 0
+    - _Use_base_color: 1
     - _Use_dissolve_gradent: 0
     - _Use_fresnel_color: 0
     - _Use_fresnel_opacity: 0
@@ -199,8 +199,8 @@ Material:
     - _Fresnel_color: {r: 0, g: 0, b: 0, a: 0}
     - _Gradent_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Main_Color_0: {r: 0, g: 0, b: 0, a: 0}
-    - _Main_Color_1: {r: 1, g: 1, b: 1, a: 1}
-    - _Main_Tex: {r: 2, g: 0.5, b: 0, a: 0}
+    - _Main_Color_1: {r: 0.47843137, g: 1.0039216, b: 1.4980392, a: 1}
+    - _Main_Tex: {r: 1, g: 2, b: 0, a: -0.8}
     - _Main_color: {r: 1, g: 1, b: 1, a: 1}
     - _Main_control: {r: 1, g: 1, b: 1, a: 1}
     - _Mask_Tex: {r: 1, g: 1, b: 0, a: 0}
