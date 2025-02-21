@@ -65,6 +65,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AddBlend: 1
+    - _Clamp: 1
     - _Cull_Mode: 2
     - _Custom: 0
     - _Depth: 2
@@ -89,7 +90,7 @@ Material:
     - _Gradent_speed_U: 0
     - _Gradent_speed_V: 0
     - _Gradent_tex_radial: 0
-    - _Main_Rotator: 90
+    - _Main_Rotator: 270
     - _Main_Split: 0
     - _Main_UV: 0
     - _Main_offset_scale: 0
@@ -118,8 +119,9 @@ Material:
     - _Noise_tex_radial: 0
     - _Noisek_offset_scale: 0
     - _Nosie_dissolve: 0
+    - _Opacity_dissolve_part_trail: 0
     - _Opacity_power: 1
-    - _Opacity_scale: 0.3
+    - _Opacity_scale: 2
     - _Use_Depth_fade: 0
     - _Use_base_color: 0
     - _Use_dissolve_gradent: 0
@@ -135,6 +137,7 @@ Material:
     - _Vertex_tex_radial: 0
     - _Z_write_mode: 0
     - __dirty: 0
+    - _offset_U: 0
     m_Colors:
     - _Dissolve_Tex: {r: 1, g: 1, b: 0, a: 0}
     - _Dissolve_color: {r: 0, g: 0, b: 0, a: 0}
