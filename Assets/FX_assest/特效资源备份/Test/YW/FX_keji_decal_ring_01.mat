@@ -171,7 +171,7 @@ Material:
     - _OcclusionStrength: 1
     - _Opacity_dissolve_part_trail: 0
     - _Opacity_power: 1
-    - _Opacity_scale: 1
+    - _Opacity_scale: 2
     - _Parallax: 0.02
     - _Radia_noise_ring: 0
     - _Riadia_noise_UV: 1

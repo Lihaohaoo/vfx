@@ -40,8 +40,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Dissovle01_tex:
-        m_Texture: {fileID: 2800000, guid: ec3ddf839ad51dd41943dc1c20c36639, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 46d32a78d375f714381dbd1178be8d58, type: 3}
+        m_Scale: {x: 50, y: 19.94}
         m_Offset: {x: 0, y: 0}
     - _Dissovle02_tex:
         m_Texture: {fileID: 2800000, guid: 6827d78082b524b47bd2a7ea79c80b0e, type: 3}
